@@ -3,9 +3,9 @@
 
 ## UX
 ### Wireframes
-These are the original wireframes i created during the design process. You can also find the original Balsamiq Mockup [here](/Wireframes/)
+These are the original wireframes i created during the design process. You can also find the original Balsamiq Mockup [here](/wireframes/)
 
-![IMG](/Wireframes/PC/Home%20-%20PC.png)
+![IMG](/wireframes/PC/Home%20-%20PC.png)
 
 ## Features
 ## Technologies Used
