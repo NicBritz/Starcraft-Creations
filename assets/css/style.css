@@ -1,3 +1,15 @@
-h1 {
-    color: blue;
+/*-------------  Colors  ---------------*/
+.bg-color-navbar {
+    background-color: palegoldenrod;
+}
+
+/*--------------General ---------------*/
+/*--------------- NAV BAR -------------*/
+/*------ logo ------*/
+.fa-star {
+    font-size: 30px;
+}
+
+.logo-text {
+    margin-left: 5px;
 }
