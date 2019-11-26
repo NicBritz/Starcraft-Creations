@@ -1,15 +1,22 @@
 /*-------------  Colors  ---------------*/
-.bg-color-navbar {
-    background-color: palegoldenrod;
+body {
+  background-color: chocolate;
 }
 
-/*--------------General ---------------*/
+.bg-color-navbar {
+  background-color: palegoldenrod;
+}
+
+/*=============General ================*/
 /*--------------- NAV BAR -------------*/
-/*------ logo ------*/
+.ui-navbar {
+  margin: 5px;
+}
+/*--------------- Logo -------------*/
 .fa-star {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .logo-text {
-    margin-left: 5px;
+  margin-left: 5px;
 }
