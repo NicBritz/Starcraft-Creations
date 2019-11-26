@@ -1,4 +1,4 @@
-/*-------------  Colors  ---------------*/
+/*-- Colors --*/
 body {
   background-color: chocolate;
 }
@@ -7,12 +7,12 @@ body {
   background-color: palegoldenrod;
 }
 
-/*=============General ================*/
-/*--------------- NAV BAR -------------*/
+/*== General ==*/
+/*-- NAV BAR --*/
 .ui-navbar {
   margin: 5px;
 }
-/*--------------- Logo -------------*/
+/*-- Logo --*/
 .fa-star {
   font-size: 30px;
 }
