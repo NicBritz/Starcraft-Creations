@@ -1,9 +1,45 @@
 /*-- Colors --*/
 body {
-    background-color: chocolate;
+    background-color: #f4f4f4;
+}
+
+.txt-header-title-color {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.txt-header-title-color h1{
+    color: white;
 }
 
 /*== General ==*/
+/* Header / Jumbotron*/
+#ui-header {
+    /*background-attachment: fixed;*/
+    background-image: url("../images/cover-2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 90vh;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+#ui-header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.txt-header-title {
+    position: absolute;
+    top: 70vh;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 /*-- NAV BAR --*/
 .ui-navbar {
     margin: 5px;
@@ -11,6 +47,7 @@ body {
 
 .navbar .navbar-collapse {
     text-align: center;
+
 }
 
 /*-- Logo --*/
@@ -19,5 +56,6 @@ body {
 }
 
 .logo-text {
+    font-size: 18px;
     margin-left: 5px;
 }

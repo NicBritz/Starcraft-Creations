@@ -75,6 +75,9 @@ I used *[this](https://www.grammarly.com/)* tool to check all my spelling and gr
 
 ### Content
 
+All content for this project is from the following sources.
+- Images
+    - *[Pixabay](https://pixabay.com/)* - This site is packed full of royalty free images both free and payed.
 ### Media
 
 ### Acknowledgements
@@ -90,4 +93,4 @@ As Haley so kindly provided an example of a grade five project, I used her Portf
 *You can find links to her [site](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) and [Github](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)*
 
 #### Lix Pen
-I really like the look and feel of this *[site](https://lixpen.com/)* and it helped to give me some inspiration during the design process. 
+I really like the look and feel of this *[site](https://lixpen.com/)* and it helped to give me some inspiration during the design process.
