@@ -63,7 +63,12 @@ These are the original wireframes I created during the design process. You can a
 ## Features
 
 ## Technologies Used
-
+### Tools for the job
+Below is a list of tools i used to create this website.
+ - *[Pycharm](https://www.jetbrains.com/pycharm/)* - This is the IDE i used to create my site.
+ - *[Gimp](https://www.gimp.org/)* - A free image editor I used to create and edit come of the site content.
+ - *[Balsamq](https://balsamiq.com/)* - All my wireframes were created in the desktop version of Balsamiq.
+ - *[]()*
 ## Testing
 
 ### Grammarly
@@ -78,6 +83,8 @@ I used *[this](https://www.grammarly.com/)* tool to check all my spelling and gr
 All content for this project is from the following sources.
 - Images
     - *[Pixabay](https://pixabay.com/)* - This site is packed full of royalty free images both free and payed.
+    - *[Google Fonts](https://fonts.google.com/)* - There are so many fonts to choose from that I found it hard to pick the best one for my site.
+    
 ### Media
 
 ### Acknowledgements
