@@ -1,13 +1,17 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 /*-- Colors --*/
 body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     background-color: #f4f4f4;
 }
 
 .txt-header-title-color {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.txt-header-title-color h1{
+.txt-header-title-color h1 {
     color: white;
 }
 
