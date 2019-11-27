@@ -1,22 +1,23 @@
 /*-- Colors --*/
 body {
-  background-color: chocolate;
-}
-
-.bg-color-navbar {
-  background-color: palegoldenrod;
+    background-color: chocolate;
 }
 
 /*== General ==*/
 /*-- NAV BAR --*/
 .ui-navbar {
-  margin: 5px;
+    margin: 5px;
 }
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 /*-- Logo --*/
 .fa-star {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .logo-text {
-  margin-left: 5px;
+    margin-left: 5px;
 }
