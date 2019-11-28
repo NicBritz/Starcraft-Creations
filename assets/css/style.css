@@ -1,65 +1,74 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 /*-- Colors --*/
 body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    background-color: #f4f4f4;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: #f4f4f4;
 }
 
 .txt-header-title-color {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .txt-header-title-color h1 {
-    color: white;
+  color: white;
 }
 
 /*== General ==*/
 /* Header / Jumbotron*/
 #ui-header {
-    /*background-attachment: fixed;*/
-    background-image: url("../images/cover-2.jpg");
-    background-position: bottom;
-    background-size: cover;
-    height: 90vh;
-    margin-bottom: 0;
-    z-index: 1;
+  background-image: url("../images/cover-2.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
+  margin-bottom: 0;
+  z-index: 1;
 }
 
 #ui-header nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.ui-about .card {
+  margin: auto;
+  width: 30em;
+  margin-bottom: 20%;
+  margin-top: 30px;
 }
 
 .txt-header-title {
-    position: absolute;
-    top: 70vh;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 70vh;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+txt-about-header {
+  margin-bottom: 20px;
 }
 
 /*-- NAV BAR --*/
 .ui-navbar {
-    margin: 5px;
+  margin: 5px;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
-
+  text-align: center;
 }
 
 /*-- Logo --*/
 .fa-star {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .logo-text {
-    font-size: 18px;
-    margin-left: 5px;
+  font-size: 18px;
+  margin-left: 5px;
 }
