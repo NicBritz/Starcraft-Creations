@@ -15,6 +15,11 @@ body {
   color: white;
 }
 
+#about h2 {
+  margin: 2%;
+  text-align: center;
+}
+
 /*== General ==*/
 /* Header / Jumbotron*/
 #ui-header {
@@ -35,10 +40,7 @@ body {
 }
 
 .ui-about .card {
-  margin: auto;
-  width: 30em;
-  margin-bottom: 20%;
-  margin-top: 30px;
+  margin: 5%;
 }
 
 .txt-header-title {
@@ -51,12 +53,16 @@ body {
 }
 
 txt-about-header {
+  margin-top: 50px;
+  padding: 50px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /*-- NAV BAR --*/
 .ui-navbar {
   margin: 5px;
+  z-index: 1;
 }
 
 .navbar .navbar-collapse {
