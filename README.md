@@ -1,5 +1,8 @@
 # Starcraft Creations - Milestone Project 1
 
+## Contents
+- [Media](#Media)
+
 ## Overview
 A prestigious company like Starcraft Creations needs a professional-looking website. 
 
@@ -13,6 +16,8 @@ That is why I have created this site as clean as possible, but still emphasising
 These are the original wireframes I created during the design process. You can also find the original Balsamiq Mockup [here](/wireframes/)
 
 **Home - PC**
+<img src="/wireframes/PC/Home - PC.png" width="500" height="250" align="center">
+
 
 ![IMG](/wireframes/PC/Home%20-%20PC.png)
 
