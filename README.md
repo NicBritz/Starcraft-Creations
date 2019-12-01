@@ -1,8 +1,27 @@
 # Starcraft Creations - Milestone Project 1
 
+<!-- contents -->
+
 ## Contents
 - [Overview](#Overview)
 - [UX](#UX)
+    - [Standard Customer](#Standard-Customer)
+    - [Professional Customer](#Professional-Customer)
+    - [Starcraft Creations](#Starcraft-Creations)
+- [Wireframes](#Wireframes)
+- [Features](#Features)
+- [Technologies Used](#Technologies-Used)
+    - [Tools for the job](#Tools-for-the-job)
+- [Testing](#Testing)
+- [Deployment](#Deployment)
+- [Credits](#Credits)
+    - [Content](#Content)
+    - [Media](#Media)
+    - [Acknowledgements](#Acknowledgements)
+
+
+
+<!-- overview -->
 
 ## Overview
 A prestigious company like Starcraft Creations needs a professional-looking website. 
@@ -10,28 +29,35 @@ A prestigious company like Starcraft Creations needs a professional-looking webs
 The company designs both original and custom 3D printed items and they wanted a website that reflects the quality of their work. 
 
 That is why I have created this site as clean as possible, but still emphasising the selling of the products the company has to offer.
+
 <!-- Top -->
+
 <div align="center">
 
 [Top](#Contents)
 </div>
+
+<!-- ux -->
 
 ## UX
 ### User stories
-**1. Standard Customer**
+##### Standard Customer
 + As a customer, I wanted to be able to purchase 3d printed products effortlessly without all the clutter I experience on some other sites.
 
-**2. Professional Customer**
+##### Professional Customer
 + As a manufacturer, I wanted to have an easy way of getting prototypes 3D printed so that I can get my products to market with as little issues as possible.
 
-**3. Starcraft Creations**
+##### Starcraft Creations
 + As a 3d printing business, we wanted a website that portrays our professionalism. We also wanted the process to be as simple as possible. 
 
 <!-- Top -->
+
 <div align="center">
 
 [Top](#Contents)
 </div>
+
+<!-- wireframes -->
 
 ### Wireframes
 
@@ -54,6 +80,7 @@ These are my wireframes I created during the design process, they were great as 
 **Contact - PC**
 
 <!-- Top -->
+
 <div align="center">
 
 [Top](#Contents)
@@ -76,6 +103,7 @@ These are my wireframes I created during the design process, they were great as 
 **Contact - iPad**
 
 <!-- Top -->
+
 <div align="center">
 
 [Top](#Contents)
@@ -102,26 +130,66 @@ These are my wireframes I created during the design process, they were great as 
 </div>
 
 <!-- Top -->
+
 <div align="center">
 
 [Top](#Contents)
 </div>
 
+<!-- features -->
+
 ## Features
+<!-- Top -->
+
+<div align="center">
+
+[Top](#Contents)
+</div>
+
+<!-- technologies used -->
 
 ## Technologies Used
+
 ### Tools for the job
 Below is a list of tools i used to create this website.
- - *[Pycharm](https://www.jetbrains.com/pycharm/)* - This is the IDE i used to create my site.
- - *[Gimp](https://www.gimp.org/)* - A free image editor I used to create and edit come of the site content.
- - *[Balsamq](https://balsamiq.com/)* - All my wireframes were created in the desktop version of Balsamiq.
- - *[]()*
+ - [Pycharm](https://www.jetbrains.com/pycharm/) - This is the IDE i used to start building the website.
+ - [Gimp](https://www.gimp.org/) - A free image editor I used to create and edit come of the site content.
+ - [Balsamq](https://balsamiq.com/) - All my wireframes were created in the desktop version of Balsamiq.
+ - [VS Code](https://code.visualstudio.com/) - I used this editor for building parts of the website.
+
+ <!-- Top -->
+
+<div align="center">
+
+[Top](#Contents)
+</div>
+
+<!-- testing -->
+
 ## Testing
 
-### Grammarly
-I used *[this](https://www.grammarly.com/)* tool to check all my spelling and grammar. 
 
+### Grammarly
+I used [Grammarly](https://www.grammarly.com/) to double check all my spelling and grammar. 
+
+ <!-- Top -->
+
+<div align="center">
+
+[Top](#Contents)
+</div>
+
+<!-- Deployment -->
 ## Deployment
+
+ <!-- Top -->
+
+<div align="center">
+
+[Top](#Contents)
+</div>
+
+<!-- Credits -->
 
 ## Credits
 
@@ -139,12 +207,19 @@ All content for this project is from the following sources.
 #### Gary Simons
 
 To help guide me in the correct direction, I drew some inspiration from this project of his. As he was able to get a perfect score on his project, I figured I could learn from his work.
-*You can find links to his [Site](https://garysimons.github.io/One-Milestone-Project/) and [Github](https://github.com/GarySimons/One-Milestone-Project)*
+here you can find links to his [website](https://garysimons.github.io/One-Milestone-Project/) and [Github](https://github.com/GarySimons/One-Milestone-Project)
 
 #### Haley Schafer
 
-As Haley so kindly provided an example of a grade five project, I used her Portfolio project to help me.
-*You can find links to her [site](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) and [Github](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)*
+As Haley so kindly provided an example of a grade five project, I used her Portfolio project to help guid me.
+Here you can find links to her [website](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) and [Github](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
 
 #### Lix Pen
-I really like the look and feel of this *[site](https://lixpen.com/)* and it helped to give me some inspiration during the design process.
+I really like the look and feel of this [website](https://lixpen.com/) and it helped to give me some inspiration during the design and implementation process.
+
+ <!-- Top -->
+
+<div align="center">
+
+[Top](#Contents)
+</div>
