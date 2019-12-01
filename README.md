@@ -48,7 +48,7 @@ These are the original wireframes I created during the design process. Here you 
 
 **Home - iPad**
 
-<img src="/wireframes/iPad/Home%20-%20iPad.png)" alt="home screen wireframe for ipad" width="512" height="350">
+<img src="/wireframes/iPad/Home%20-%20iPad.png" alt="home screen wireframe for ipad" width="512" height="350">
 
 **About - iPad**
 
