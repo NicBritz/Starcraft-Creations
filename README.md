@@ -28,10 +28,15 @@ That is why I have created this site as clean as possible, but still emphasising
 
 These are the original wireframes I created during the design process. You can also find the original Balsamiq Mockup [here](/wireframes/)
 
-<div width="512" height="350" align="center">
+<div align="center">
+
 **Home - PC**
 
+<div width="512" height="350">
+
 ![IMG](/wireframes/PC/Home%20-%20PC.png)
+
+</div>
 
 **About - PC**
 
