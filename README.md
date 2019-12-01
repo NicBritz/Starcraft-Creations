@@ -32,51 +32,51 @@ These are the original wireframes I created during the design process. Here you 
 
 **Home - PC**
 
-<img src="/wireframes/PC/Home%20-%20PC.png" alt="home screen wireframe for pc" width="512" height="350">
+<img src="/wireframes/PC/Home%20-%20PC.png" alt="home screen wireframe for pc" width="512" height="357">
 
 **About - PC**
 
-<img src="/wireframes/PC/About%20-%20PC.png" alt="about screen wireframe for pc" width="512" height="350">
+<img src="/wireframes/PC/About%20-%20PC.png" alt="about screen wireframe for pc" width="512" height="357">
 
 **Products - PC**
 
-<img src="/wireframes/PC/Products%20-%20PC.png" alt="products screen wireframe for pc" width="512" height="350">
+<img src="/wireframes/PC/Products%20-%20PC.png" alt="products screen wireframe for pc" width="512" height="357">
 
 **Contact - PC**
 
-<img src="/wireframes/PC/Contact%20-%20PC.png" alt="contact screen wireframe for pc" width="512" height="350">
+<img src="/wireframes/PC/Contact%20-%20PC.png" alt="contact screen wireframe for pc" width="512" height="357">
 
 **Home - iPad**
 
-<img src="/wireframes/iPad/Home%20-%20iPad.png" alt="home screen wireframe for ipad" width="512" height="350">
+<img src="/wireframes/iPad/Home%20-%20iPad.png" alt="home screen wireframe for ipad" width="308" height="458">
 
 **About - iPad**
 
-![IMG](/wireframes/iPad/About%20-%20iPad.png)
+<img src="/wireframes/iPad/About%20-%20iPad.png" alt="about screen wireframe for ipad" width="308" height="458">
 
 **Products - iPad**
 
-![IMG](/wireframes/iPad/Products%20-%20iPad.png)
+<img src="/wireframes/iPad/Products%20-%20iPad.png" alt="products screen wireframe for ipad" width="308" height="458">
 
 **Contact - iPad**
 
-![IMG](/wireframes/iPad/Contact%20-%20iPad.png)
+<img src="/wireframes/iPad/Contact%20-%20iPad.png" alt="contact screen wireframe for ipad" width="308" height="458">
 
 **Home - iPhone**
 
-![IMG](/wireframes/iPhone/Home%20-%20iPhone.png)
+<img src="/wireframes/iPhone/Home%20-%20iPhone.png" alt="home screen wireframe for iphone" width="217" height="433">
 
 **About - iPhone**
 
-![IMG](/wireframes/iPhone/About%20-%20iPhone.png)
+<img src="/wireframes/iPhone/About%20-%20iPhone.png" alt="about screen wireframe for iphone" width="217" height="433">
 
 **Products - iPhone**
 
-![IMG](/wireframes/iPhone/Products%20-%20iPhone.png)
+<img src="/wireframes/iPhone/Products%20-%20iPhone.png" alt="products screen wireframe for iphone" width="217" height="433">
 
 **Contact - iPhone**
 
-![IMG](/wireframes/iPhone/Contact%20-%20iPhone.png)
+<img src="/wireframes/iPhone/Contact%20-%20iPhone.png" alt="products screen wireframe for iphone" width="217" height="433">
 
 </div>
 
