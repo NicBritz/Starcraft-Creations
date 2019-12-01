@@ -26,7 +26,7 @@ That is why I have created this site as clean as possible, but still emphasising
 [Back to top](#Contents)
 ### Wireframes
 
-These are the original wireframes I created during the design process. You can also find the original Balsamiq Mockup [here](/wireframes/)
+These are the original wireframes I created during the design process. Here you can also find the original [Balsamiq Mockup](/wireframes/) file.
 
 <div align="center">
 
@@ -34,22 +34,21 @@ These are the original wireframes I created during the design process. You can a
 
 <img src="/wireframes/PC/Home%20-%20PC.png" alt="home screen wireframe for pc" width="512" height="350">
 
-
 **About - PC**
 
-![IMG](/wireframes/PC/About%20-%20PC.png)
+<img src="/wireframes/PC/About%20-%20PC.png" alt="about screen wireframe for pc" width="512" height="350">
 
 **Products - PC**
 
-![IMG](/wireframes/PC/Products%20-%20PC.png)
+<img src="/wireframes/PC/Products%20-%20PC.png" alt="products screen wireframe for pc" width="512" height="350">
 
 **Contact - PC**
 
-![IMG](/wireframes/PC/Contact%20-%20PC.png)
+<img src="/wireframes/PC/Contact%20-%20PC.png" alt="contact screen wireframe for pc" width="512" height="350">
 
 **Home - iPad**
 
-![IMG](/wireframes/iPad/Home%20-%20iPad.png)
+<img src="/wireframes/iPad/Home%20-%20iPad.png)" alt="home screen wireframe for ipad" width="512" height="350">
 
 **About - iPad**
 
