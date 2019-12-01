@@ -24,7 +24,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  margin: 5px;
   z-index: 1;
 }
 
@@ -33,7 +32,7 @@ body {
 }
 
 /* Logo */
-.fa-star {
+.navbar-brand .fa-star {
   font-size: 30px;
 }
 
@@ -71,6 +70,22 @@ txt-about-header {
   text-align: center;
 }
 
+
 #about .card {
-  margin: 5%;
+  margin: 8%;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+
+/* review section */
+.review {
+  color: orange;
+}
+
+/* grip line */
+.gripline {
+  text-align: center;
+  font-size: 64px;
 }
