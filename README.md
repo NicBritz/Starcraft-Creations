@@ -57,6 +57,20 @@ That is why I have created this site as clean as possible, but still emphasising
 [Top](#Contents)
 </div>
 
+<!-- features -->
+
+## Features
+<!-- Top -->
+**Navigation Bar**
+I have made it so that the navigation bar will stay on top, no matter where you scroll to on the page, this allows for easy navigation at any time. The navigation bar will also collapse to reduce the clutter on smaller screen sizes. I have centered the text when this menu is collapsed. I think this looks very neat. 
+
+
+<div align="center">
+
+[Top](#Contents)
+</div>
+
+
 <!-- wireframes -->
 
 ### Wireframes
@@ -136,27 +150,28 @@ These are my wireframes I created during the design process, they were great as 
 [Top](#Contents)
 </div>
 
-<!-- features -->
-
-## Features
-<!-- Top -->
-
-<div align="center">
-
-[Top](#Contents)
-</div>
 
 <!-- technologies used -->
 
 ## Technologies Used
 
+I used the following technologies to create this website:
+
+1. HTML 
+2. CSS 
+3. [Bootstrap (4.4.0)](https://getbootstrap.com/)
+4. [Google fonts](https://fonts.google.com/)
+5. [Font Awesome (5.11.2)](https://fontawesome.com/)
+6. [Git](https://git-scm.com/)
+
 ### Tools for the job
 Below is a list of tools i used to create this website.
- - [Pycharm](https://www.jetbrains.com/pycharm/) - This is the IDE i used to start building the website.
+ - [Pycharm](https://www.jetbrains.com/pycharm/) - This is the IDE I used to start building the website.
  - [Gimp](https://www.gimp.org/) - A free image editor I used to create and edit come of the site content.
  - [Balsamq](https://balsamiq.com/) - All my wireframes were created in the desktop version of Balsamiq.
- - [VS Code](https://code.visualstudio.com/) - I used this editor for building parts of the website.
-
+ - [VS Code](https://code.visualstudio.com/) - Used this editor for building parts of the website. 
+ - [Git Hub](https://github.com/) - Used this site to manage my projects storage as well as host the website.
+- [Grammarly](https://www.grammarly.com/) Used to double check all my spelling and grammar. 
  <!-- Top -->
 
 <div align="center">
@@ -169,8 +184,7 @@ Below is a list of tools i used to create this website.
 ## Testing
 
 
-### Grammarly
-I used [Grammarly](https://www.grammarly.com/) to double check all my spelling and grammar. 
+
 
  <!-- Top -->
 
@@ -197,8 +211,8 @@ I used [Grammarly](https://www.grammarly.com/) to double check all my spelling a
 
 All content for this project is from the following sources.
 - Images
-    - *[Pixabay](https://pixabay.com/)* - This site is packed full of royalty free images both free and payed.
-    - *[Google Fonts](https://fonts.google.com/)* - There are so many fonts to choose from that I found it hard to pick the best one for my site.
+    - [Pixabay](https://pixabay.com/) - This site is packed full of royalty free images both free and payed.
+    
     
 ### Media
 
