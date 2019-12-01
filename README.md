@@ -64,12 +64,14 @@ That is why I have created this site as clean as possible, but still emphasising
 **Navigation Bar**
 I have made it so that the navigation bar will stay on top, no matter where you scroll to on the page, this allows for easy navigation at any time. The navigation bar will also collapse to reduce the clutter on smaller screen sizes. I have centered the text when this menu is collapsed. I think this looks very neat. 
 
+**About section**
+When I created the 'About Us' section, I made use of Bootstrap's card component. This helped to structure the content neatly and in an organized way.I also decided to add some customer comments to this section, should give a feel for the type of company Starcraft Creations are.
+
 
 <div align="center">
 
 [Top](#Contents)
 </div>
-
 
 <!-- wireframes -->
 
@@ -195,6 +197,17 @@ Below is a list of tools i used to create this website.
 
 <!-- Deployment -->
 ## Deployment
+This site makes use of GitHub's technology for deployment. I have used GitHub pages to serve the site. The deplyed version can be found here: https://frozenaught.github.io/Starcraft-Creations/, this relies on the [`index.html`](\index.html) file to make it work. 
+
+For development I created a repository https://github.com/Frozenaught/Starcraft-Creations. 
+- Use `git clone https://github.com/Frozenaught/Starcraft-Creations` to pull a copy of the repo to your computer.
+- I would always recomend doing a git pull before starting any work on the project, this just insures youa re working on the latest version.
+- Make any changes you need and commit using the command ` git commit -m "your message` after staging the content with the command `git add "name of file"` of `git add .` for staging all files.
+- You can push this to the remote using `git push`
+- If there is anything you would not like to include in your commit i have made a [`.gitignore`](\.gitignore) file, simply add the path to the file or folder and is will nolonger show up if you run `git status`.
+- I suggest regular commits as this will avoid big issues that are hard to reverse.
+- You could also make use of a seperate branch if you decide you want to experiment with things or dont want to work directly on the master branch. to do this use the `git checkout -b "branch name"` command. 
+- You could then switch back to the master branch using `git checkout master`
 
  <!-- Top -->
 
@@ -209,12 +222,12 @@ Below is a list of tools i used to create this website.
 
 ### Content
 
-All content for this project is from the following sources.
+All content for this project is from the following sources. 
+
+### Media
 - Images
     - [Pixabay](https://pixabay.com/) - This site is packed full of royalty free images both free and payed.
-    
-    
-### Media
+- Text - written by me
 
 ### Acknowledgements
 
@@ -229,7 +242,10 @@ As Haley so kindly provided an example of a grade five project, I used her Portf
 Here you can find links to her [website](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) and [Github](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
 
 #### Lix Pen
-I really like the look and feel of this [website](https://lixpen.com/) and it helped to give me some inspiration during the design and implementation process.
+I really like the look and feel of the [Lix Pen website](https://lixpen.com/) and it helped to give me some inspiration during the design and implementation process.
+
+#### Protolabs
+I also liked the [Protolabs website](https://www.protolabs.co.uk/) and drew some inspiration from this site also.
 
  <!-- Top -->
 
