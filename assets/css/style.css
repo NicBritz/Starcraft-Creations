@@ -66,18 +66,21 @@ txt-about-header {
 }
 
 #about h2 {
-  margin: 2%;
+  margin: 0;
   text-align: center;
+  padding-top: 60px;
 }
 
 
 #about .card {
-  margin: 8%;
-  margin-top: 0;
-  margin-bottom: 0;
+  text-align: center;
 
 }
 
+.testimonials {
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
 /* review section */
 .review {
@@ -87,5 +90,6 @@ txt-about-header {
 /* grip line */
 .gripline {
   text-align: center;
-  font-size: 64px;
+  font-size: 50px;
+  padding-bottom: 0;
 }
