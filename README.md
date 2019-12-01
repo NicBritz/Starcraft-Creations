@@ -1,7 +1,8 @@
 # Starcraft Creations - Milestone Project 1
 
 ## Contents
-- [Media](#Media)
+- [Media](#Overview)
+- [Media](#UX)
 
 ## Overview
 A prestigious company like Starcraft Creations needs a professional-looking website. 
@@ -9,17 +10,22 @@ A prestigious company like Starcraft Creations needs a professional-looking webs
 The company designs both original and custom 3D printed items and they wanted a website that reflects the quality of their work. 
 
 That is why I have created this site as clean as possible, but still emphasising the selling of the products the company has to offer.
-## UX
+[Back to top](#Contents)
 
+## UX
+### User stories
+1.Customer
++ As a customer, I wanted to be able to purchase 3d printed products effortlessly without all the clutter I experience on some other sites.
+
+2.Manufacturer
++ As a manufacturer, I wanted to have an easy way of getting prototypes 3D printed so that I can get my products to market with as little issues as possible. 
+
+[Back to top](#Contents)
 ### Wireframes
 
 These are the original wireframes I created during the design process. You can also find the original Balsamiq Mockup [here](/wireframes/)
 
 **Home - PC**
-<div align="center">
-<img src="/wireframes/PC/Home - PC.png" width="500" height="250" >
-</div>
-
 
 ![IMG](/wireframes/PC/Home%20-%20PC.png)
 
@@ -67,6 +73,7 @@ These are the original wireframes I created during the design process. You can a
 
 ![IMG](/wireframes/iPhone/Contact%20-%20iPhone.png)
 
+[Back to top](#Contents)
 ## Features
 
 ## Technologies Used
