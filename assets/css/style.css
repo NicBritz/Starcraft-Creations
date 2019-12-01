@@ -93,3 +93,24 @@ txt-about-header {
   font-size: 50px;
   padding-bottom: 0;
 }
+
+/* media queries */
+@media (max-width: 640px) {
+
+  .txt-header-title h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  #about .card {
+    text-align: left;
+    padding: 5px;
+  }
+
+  .txt-header-title h1 {
+    font-size: 30px;
+  }
+
+}
