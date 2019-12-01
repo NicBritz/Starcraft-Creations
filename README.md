@@ -32,11 +32,8 @@ These are the original wireframes I created during the design process. You can a
 
 **Home - PC**
 
-<div width="512" height="350">
+<img src="/wireframes/PC/Home%20-%20PC.png" alt="home screen wireframe for pc" width="512" height="350">
 
-![IMG](/wireframes/PC/Home%20-%20PC.png)
-
-</div>
 
 **About - PC**
 
