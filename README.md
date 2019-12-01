@@ -1,8 +1,8 @@
 # Starcraft Creations - Milestone Project 1
 
 ## Contents
-- [Media](#Overview)
-- [Media](#UX)
+- [Overview](#Overview)
+- [UX](#UX)
 
 ## Overview
 A prestigious company like Starcraft Creations needs a professional-looking website. 
@@ -10,7 +10,11 @@ A prestigious company like Starcraft Creations needs a professional-looking webs
 The company designs both original and custom 3D printed items and they wanted a website that reflects the quality of their work. 
 
 That is why I have created this site as clean as possible, but still emphasising the selling of the products the company has to offer.
-[Back to top](#Contents)
+<!-- Top -->
+<div align="center">
+
+[Top](#Contents)
+</div>
 
 ## UX
 ### User stories
@@ -23,10 +27,15 @@ That is why I have created this site as clean as possible, but still emphasising
 **3. Starcraft Creations**
 + As a 3d printing business, we wanted a website that portrays our professionalism. We also wanted the process to be as simple as possible. 
 
-[Back to top](#Contents)
+<!-- Top -->
+<div align="center">
+
+[Top](#Contents)
+</div>
+
 ### Wireframes
 
-These are the original wireframes I created during the design process. Here you can also find the original [Balsamiq Mockup](/wireframes/) file.
+These are my wireframes I created during the design process, they were great as a guide to get started. Here you can also find the original [Balsamiq Mockup](/wireframes/) file.
 
 <div align="center">
 
@@ -44,6 +53,12 @@ These are the original wireframes I created during the design process. Here you 
 
 **Contact - PC**
 
+<!-- Top -->
+<div align="center">
+
+[Top](#Contents)
+</div>
+
 <img src="/wireframes/PC/Contact%20-%20PC.png" alt="contact screen wireframe for pc" width="512" height="357">
 
 **Home - iPad**
@@ -59,6 +74,12 @@ These are the original wireframes I created during the design process. Here you 
 <img src="/wireframes/iPad/Products%20-%20iPad.png" alt="products screen wireframe for ipad" width="308" height="458">
 
 **Contact - iPad**
+
+<!-- Top -->
+<div align="center">
+
+[Top](#Contents)
+</div>
 
 <img src="/wireframes/iPad/Contact%20-%20iPad.png" alt="contact screen wireframe for ipad" width="308" height="458">
 
@@ -80,7 +101,11 @@ These are the original wireframes I created during the design process. Here you 
 
 </div>
 
-[Back to top](#Contents)
+<!-- Top -->
+<div align="center">
+
+[Top](#Contents)
+</div>
 
 ## Features
 
