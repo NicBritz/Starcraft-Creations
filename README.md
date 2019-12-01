@@ -14,17 +14,21 @@ That is why I have created this site as clean as possible, but still emphasising
 
 ## UX
 ### User stories
-1.Customer
+**1. Standard Customer**
 + As a customer, I wanted to be able to purchase 3d printed products effortlessly without all the clutter I experience on some other sites.
 
-2.Manufacturer
-+ As a manufacturer, I wanted to have an easy way of getting prototypes 3D printed so that I can get my products to market with as little issues as possible. 
+**2. Professional Customer**
++ As a manufacturer, I wanted to have an easy way of getting prototypes 3D printed so that I can get my products to market with as little issues as possible.
+
+**3. Starcraft Creations**
++ As a 3d printing business, we wanted a website that portrays our professionalism. We also wanted the process to be as simple as possible. 
 
 [Back to top](#Contents)
 ### Wireframes
 
 These are the original wireframes I created during the design process. You can also find the original Balsamiq Mockup [here](/wireframes/)
 
+<div width="512" height="350" align="center">
 **Home - PC**
 
 ![IMG](/wireframes/PC/Home%20-%20PC.png)
@@ -73,7 +77,10 @@ These are the original wireframes I created during the design process. You can a
 
 ![IMG](/wireframes/iPhone/Contact%20-%20iPhone.png)
 
+</div>
+
 [Back to top](#Contents)
+
 ## Features
 
 ## Technologies Used
