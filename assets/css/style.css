@@ -1,4 +1,4 @@
-/* ---------------------------- Fonts / General -------------------------------*/
+/* Fonts / General */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 
 
@@ -8,7 +8,7 @@ body {
   background-color: #f4f4f4;
 }
 
-/* ---------------------------- Header / Jumbotron -------------------------------*/
+/* Header / Jumbotron */
 #ui-header {
   background-image: url("../images/cover-2.jpg");
   background-position: bottom;
@@ -32,7 +32,7 @@ body {
   text-align: center;
 }
 
-/* ---------------------------- Logo -------------------------------*/
+/* Logo */
 .fa-star {
   font-size: 30px;
 }
@@ -42,7 +42,7 @@ body {
   margin-left: 5px;
 }
 
-/* ---------------------------- Header Title -------------------------------*/
+/* Header Title */
 
 .txt-header-title {
   position: absolute;
@@ -58,7 +58,7 @@ body {
   color: white;
 }
 
-/* ---------------------------- About  -------------------------------*/
+/* About */
 txt-about-header {
   margin-top: 50px;
   padding: 50px;
