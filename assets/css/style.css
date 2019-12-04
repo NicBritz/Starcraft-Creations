@@ -127,3 +127,17 @@ txt-about-header {
 .contact-field {
   width: 80%;
 }
+
+#footer {
+  color: #f4f4f4;
+  padding: 50px;
+}
+
+.social li {
+  list-style: none;
+
+}
+
+.icon {
+  font-size: 30px;
+}
