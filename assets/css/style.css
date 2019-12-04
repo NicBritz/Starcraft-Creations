@@ -118,3 +118,12 @@ txt-about-header {
 .buy-img {
   text-align: center;
 }
+
+.ui-contact .row {
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-field {
+  width: 80%;
+}
