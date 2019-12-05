@@ -4,9 +4,16 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  background-color: #f4f4f4;
+  font-weight: 400;
+  background-color: #E6F5FF;
 }
+
+/* colors */
+
+.bg-header {
+  background-color: #92A4B0;
+}
+
 
 /* Header / Jumbotron */
 #ui-header {
@@ -14,7 +21,7 @@ body {
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
-  height: 90vh;
+  height: 95vh;
   margin-bottom: 0;
   z-index: 1;
 }
@@ -31,46 +38,57 @@ body {
   text-align: center;
 }
 
-/* Logo */
-.navbar-brand .fa-star {
-  font-size: 30px;
+.navbar {
+  padding: 0;
+  font-weight: 300;
 }
 
-.navbar-brand span {
-  font-size: 18px;
-  margin-left: 5px;
+/* Logo */
+.navbar-brand .fa-star {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #E6F5FF;
+  transition: transform .4s;
+
 }
+
+#logo:hover>.fa-star {
+  transform: scale(1.15);
+
+}
+
+
+
+.navbar-brand span {
+  font-size: 24px;
+  font-weight: 300;
+  padding-left: 6px;
+  letter-spacing: 1px;
+}
+
 
 /* Header Title */
 
 .txt-header-title {
   position: absolute;
-  top: 70vh;
+  top: 12vh;
   height: 10%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  align-items: left;
+  justify-content: left;
+
 }
 
 .txt-header-title h1 {
-  color: white;
+  font-size: 60px;
+  font-weight: 200;
 }
 
 /* About */
-txt-about-header {
-  margin-top: 50px;
-  padding: 50px;
-  margin-bottom: 20px;
-  text-align: center;
-}
 
-#about h2 {
-  margin: 0;
-  text-align: center;
+#about {
   padding-top: 60px;
 }
-
 
 #about .card {
   text-align: center;
@@ -92,6 +110,8 @@ txt-about-header {
   text-align: center;
   font-size: 50px;
   padding-bottom: 0;
+  padding-top: 20px;
+  margin: 50px;
 }
 
 /* media queries */
@@ -140,4 +160,8 @@ txt-about-header {
 
 .icon {
   font-size: 30px;
+}
+
+#contact {
+  margin-top: 100px;
 }
