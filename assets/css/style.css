@@ -1,22 +1,22 @@
 /* Fonts / General */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
 
+html {
+  /* currently not fully supported in all browsers */
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #E6F5FF;
-}
 
-/* colors */
-
-.bg-header {
-  background-color: #92A4B0;
 }
 
 
-/* Header / Jumbotron */
-#ui-header {
+
+/* Header / Jumbotron / Navbar */
+#home {
   background-image: url("../images/cover-2.jpg");
   background-position: bottom;
   background-attachment: fixed;
@@ -26,7 +26,7 @@ body {
   z-index: 1;
 }
 
-#ui-header nav {
+#home nav {
   position: absolute;
   top: 0;
   left: 0;
@@ -57,7 +57,9 @@ body {
 
 }
 
-
+.nav-item:hover>a {
+  font-weight: 400;
+}
 
 .navbar-brand span {
   font-size: 24px;
@@ -71,16 +73,11 @@ body {
 
 .txt-header-title {
   position: absolute;
-  top: 12vh;
-  height: 10%;
-  display: flex;
-  align-items: left;
-  justify-content: left;
-
+  top: 8vh;
 }
 
 .txt-header-title h1 {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 200;
 }
 
@@ -114,27 +111,6 @@ body {
   margin: 50px;
 }
 
-/* media queries */
-@media (max-width: 640px) {
-
-  .txt-header-title h1 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 576px) {
-
-  #about .card {
-    text-align: left;
-    padding: 5px;
-  }
-
-  .txt-header-title h1 {
-    font-size: 30px;
-  }
-
-}
-
 .buy-img {
   text-align: center;
 }
@@ -164,4 +140,41 @@ body {
 
 #contact {
   margin-top: 100px;
+}
+
+
+/* media queries */
+
+
+
+
+
+@media (max-width: 640px) {
+
+  .txt-header-title h1 {
+    font-size: 40px;
+
+  }
+}
+
+@media (max-width: 576px) {
+
+  #about .card {
+    text-align: left;
+    padding: 5px;
+  }
+
+  .txt-header-title h1 {
+    font-size: 30px;
+  }
+
+}
+
+@media(max-width:321px) {
+  .navbar-brand span {
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 6px;
+    letter-spacing: 1px;
+  }
 }
