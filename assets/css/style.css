@@ -84,32 +84,40 @@ body {
 /* About */
 
 #about {
-  padding-top: 60px;
+  padding-top: 5%;
+
 }
 
 #about .card {
   text-align: center;
+  border-radius: 10px;
 
 }
 
+.card-img-top {
+  height: 412px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* testimonials review section */
 .testimonials {
+
+  padding-top: 2%;
   padding-left: 10%;
   padding-right: 10%;
+  padding-bottom: 10%;
 }
 
-/* review section */
+.testimonials i {
+  color: grey;
+  font-size: 1.5em;
+}
+
 .review {
   color: orange;
 }
 
-/* grip line */
-.gripline {
-  text-align: center;
-  font-size: 50px;
-  padding-bottom: 0;
-  padding-top: 20px;
-  margin: 50px;
-}
 
 .buy-img {
   text-align: center;
