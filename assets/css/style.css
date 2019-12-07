@@ -77,14 +77,14 @@ body {
 }
 
 .txt-header-title h1 {
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 200;
 }
 
 /* About */
 
 #about {
-  margin: 10px;
+  padding: 4em 2em;
 }
 
 #about .card {
@@ -94,9 +94,13 @@ body {
 
 }
 
-.place-card {
-  padding: 4em 2em;
+#about .card-body h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
 
+.place-card {
+  padding: 2em;
 }
 
 .card-img-top {
@@ -110,7 +114,7 @@ body {
   padding-top: 0;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 10%;
+
 
 }
 
@@ -124,19 +128,36 @@ body {
   margin-top: 2em;
 }
 
-/* products */
+/* services */
 
 .product-size img {
   padding: 0;
   border-radius: 5px;
   margin-top: 5%;
-  width: 450px;
+  width: 90%;
 }
 
-#products .card-body h5 {
+#services .card-body h5 {
   text-transform: uppercase;
   font-weight: 300;
 }
+
+#services .card {
+  border-radius: 10px;
+}
+
+#services {
+  padding: 4em 2em;
+
+}
+
+/* #services {
+  background-color: red;
+}
+
+#about {
+  background-color: green;
+} */
 
 /* contact */
 
@@ -171,7 +192,18 @@ body {
 
 /* media queries */
 
+@media (min-width: 2300px) {
+  .txt-header-title {
+    position: absolute;
+    top: 80vh;
 
+  }
+
+  .txt-header-title h1 {
+    font-size: 60px;
+    font-weight: 200;
+  }
+}
 
 
 
@@ -194,16 +226,14 @@ body {
   }
 
   #about .card {
-    text-align: left;
     padding: 5px;
   }
+
 
   .txt-header-title h1 {
     font-size: 1.5em;
     padding-top: 0.5em;
   }
-
-
 
   .review {
     font-size: 0.8em;
