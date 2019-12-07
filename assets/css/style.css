@@ -9,7 +9,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  background-color: #E6F5FF;
+  background-color: rgb(185, 185, 185);
 
 }
 
@@ -94,8 +94,9 @@ body {
 
 }
 
-.about-card {
-  padding-top: 4em;
+.place-card {
+  padding: 4em 2em;
+
 }
 
 .card-img-top {
@@ -106,7 +107,7 @@ body {
 /* testimonials review section */
 .testimonials {
 
-  padding-top: 5%;
+  padding-top: 0;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 10%;
@@ -123,10 +124,22 @@ body {
   margin-top: 2em;
 }
 
+/* products */
 
-.buy-img {
-  text-align: center;
+.product-size img {
+  padding: 0;
+  border-radius: 5px;
+  margin-top: 5%;
+  width: 450px;
 }
+
+#products .card-body h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* contact */
+
 
 .ui-contact .row {
   justify-content: center;
