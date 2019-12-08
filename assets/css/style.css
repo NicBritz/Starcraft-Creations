@@ -188,10 +188,7 @@ body {
 }
 
 /* footer */
-#footer {
-  color: #f4f4f4;
 
-}
 
 .social li {
   list-style: none;
@@ -201,6 +198,8 @@ body {
 .icon {
   font-size: 30px;
 }
+
+
 
 /* #services {
   background-color: red;

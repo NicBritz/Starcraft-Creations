@@ -337,8 +337,10 @@
 
         </form>
 
-        <button type="button" class="btn btn-dark text-success pb-3" data-toggle="modal"
+        <button type="button" class="btn btn-dark text-success" data-toggle="modal"
           data-target="#buy-modal-1">Submit</button>
+
+        <br><br>
 
       </div>
 
@@ -354,25 +356,36 @@
 
 
   <!-- footer -->
-  <footer class="bg-dark mt-5" id="footer">
-    <div class="row text-center">
-      <div class="col-lg-4 col-md-10 col-sm-1">
+  <footer class="bg-dark text-light py-5 " id="footer">
+    <div class="row">
+      <!-- COPYRIGHT -->
+      <div class="col-lg-4 col-md-10 col-sm-1 pt-4">
         <p><i class="far fa-copyright"></i> Nic Britz 2019</p>
       </div>
-      <div class="col-lg-4 col-md-10" <ul class="social list-inline">
-        <li class="list-inline-item icon"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-        <li class="list-inline-item icon"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-        <li class="list-inline-item icon"><a href="#"><i class="fab fa-instagram"></i></a href="#"></li>
-        <li class="list-inline-item icon"><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
-        <li class="list-inline-item icon"><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+      <!-- SOCIAL -->
+      <div class="col-lg-4 col-md-10  pt-3">
+
+        <ul class="social list-inline">
+          <li class="list-inline-item icon"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li class="list-inline-item icon"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li class="list-inline-item icon"><a href="#"><i class="fab fa-instagram"></i></a href="#"></li>
+          <li class="list-inline-item icon"><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+          <li class="list-inline-item icon"><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
         </ul>
       </div>
-      <div class="col-lg-4 col-md-10">
-        <form action="#">
-          <p>Subscribe to our newsletter</p>
-          <input type="email" name="newsletter-email" placeholder="email" class="newsletter-field">
-        </form>
+
+      <!-- NEWS form -->
+      <div class="col-lg-4 col-md-10 ">
+        <p class="text-left">Subscribe to our newsletter</p>
+        <form action="#" class="form-inline" class="form-group">
+          <input type="email" placeholder="email" class="form-control" id="newsletter-field">
+          <button type="button" class="btn btn-dark text-success " data-toggle="modal"
+            data-target="#buy-modal-1">Submit</button>
       </div>
+
+
+      </form>
+    </div>
     </div>
 
   </footer>
