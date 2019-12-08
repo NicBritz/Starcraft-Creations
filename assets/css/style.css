@@ -9,7 +9,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  background-color: rgb(185, 185, 185);
+  background-color: #8792ff;
 }
 
 /* colors */
@@ -46,15 +46,9 @@ body {
 }
 
 /* Logo */
-.navbar-brand .fa-star {
-  margin-left: 10px;
-  font-size: 24px;
-  color: #e6f5ff;
-  transition: transform 0.4s;
-}
 
-#logo:hover > .fa-star {
-  transform: scale(1.15);
+#logo {
+  padding-left: 100px;
 }
 
 .nav-item:hover > a {
