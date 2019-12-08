@@ -13,7 +13,10 @@ body {
 
 }
 
-
+/* colors */
+.bg-lgrey {
+  background-color: rgb(185, 185, 185);
+}
 
 /* Header / Jumbotron / Navbar */
 #home {
@@ -151,29 +154,43 @@ body {
 
 }
 
-/* #services {
-  background-color: red;
-}
-
-#about {
-  background-color: green;
-} */
 
 /* contact */
 
+.address {
 
-.ui-contact .row {
-  justify-content: center;
   text-align: center;
+
 }
 
-.contact-field {
-  width: 80%;
+#map iframe {
+  border-radius: 5px;
+  border: solid 2px;
+
 }
 
+.address i {
+  color: grey;
+  font-size: 0.5em;
+  vertical-align: middle;
+  padding: 5px;
+
+}
+
+.form-border {
+  border-radius: 5px;
+  border: 1px solid grey;
+
+}
+
+.form-style {
+  border-radius: 5px;
+}
+
+/* footer */
 #footer {
   color: #f4f4f4;
-  padding: 50px;
+
 }
 
 .social li {
@@ -185,14 +202,27 @@ body {
   font-size: 30px;
 }
 
-#contact {
-  margin-top: 100px;
+/* #services {
+  background-color: red;
 }
 
+#about {
+  background-color: green;
+}
+
+#contact {
+
+  background-color: blue;
+}
+
+#footer {
+
+  background-color: rgb(218, 255, 9);
+} */
 
 /* media queries */
 
-@media (min-width: 2300px) {
+/* @media (min-width: 2300px) {
   .txt-header-title {
     position: absolute;
     top: 80vh;
@@ -240,7 +270,7 @@ body {
     margin-bottom: 10%;
   }
 
-}
+} */
 
 /* @media(max-width:321px) {
 
