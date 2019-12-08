@@ -72,16 +72,17 @@ body {
 #nav-menu ul {
   padding-right: 10%;
 }
+
 /* Logo */
 
 #logo {
-  padding-left: 5%;
+  padding-left: 10%;
   padding-bottom: 15px;
 }
 
-/* .nav-item:hover > a {
-  font-weight: 600;
-} */
+.nav-item {
+  padding-left: 50px;
+}
 
 .navbar-brand span {
   font-size: 24px;
