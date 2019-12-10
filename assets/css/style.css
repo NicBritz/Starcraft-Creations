@@ -1,13 +1,13 @@
 /* Fonts / General */
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");
-
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700');
 html {
   /* currently not fully supported in all browsers */
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   background-color: #eae9f2;
 }
@@ -21,25 +21,17 @@ body {
   background-color: #0062a5;
 }
 
+.bg-green {
+  background-color: #0BA871;
+}
+
 .txt-light {
   color: #eae9f2;
 }
 
 /* //default col */
-.navbar-dark .navbar-nav .nav-link {
-  color: rgb(255, 255, 255, 0.5);
-}
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:focus {
-  color: #eae9f2;
-}
 
-.navbar-dark .nav-item > .nav-link.active {
-  color: #fff;
-  font-weight: 300;
-  font-size: 1.1em;
-}
 /* Header / Jumbotron / Navbar */
 #home {
   background-image: url("../images/cover-2.jpg");
@@ -69,19 +61,41 @@ body {
 }
 
 #nav-menu ul {
-  padding-right: 10%;
+  padding-right: 20px;
 }
 
+.navbar-dark .navbar-nav .nav-link i {
+  margin-right: 10px;
+  display: inline-block;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 300;
+  font-size: 1.1em;
+  margin-right: 50px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #eae9f2;
+}
+
+.navbar-dark .nav-item > .nav-link.active {
+  color: #fff;
+  font-size: 1.1em;
+  border-bottom: 3px solid #fff;
+}
 /* Logo */
 
 #logo {
-  padding-left: 10%;
+  padding-left: 80px;
   padding-bottom: 15px;
 }
 
-.nav-item {
-  padding-left: 50px;
-}
+
 
 .navbar-brand span {
   font-size: 24px;
@@ -93,15 +107,38 @@ body {
 /* Header Title */
 
 .txt-header-title {
+  background-color: rgba(0,98,165,0.5);
   position: absolute;
-  top: 8vh;
+  top: 70vh;
+  bottom: auto;
 }
 
 .txt-header-title h1 {
-  font-size: 50px;
-  font-weight: 200;
+  padding-top: 1em;
+  padding-left: 1em;
+  font-weight: 500;
+  font-size: 3em;
 }
 
+.txt-header-title p{
+  font-size: 1.5em;
+  font-weight: 200;
+  padding-left: 50px;
+}
+
+.txt-header-title button{
+  border-radius: 25px;
+}
+.txt-header-title button:hover{
+  color: #fff;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 250px solid rgba(0,98,165,0.6);
+  border-right: 100px solid transparent;
+}
 /* About */
 
 #about {
