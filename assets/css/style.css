@@ -204,7 +204,9 @@ body {
 /*Team*/
 
 #team {
-    padding: 4em;
+    padding: 2em;
+    width: 100%;
+    height: 100%;
 }
 .team-member{
     width: 250px;
