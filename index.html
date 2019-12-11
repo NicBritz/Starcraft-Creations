@@ -58,6 +58,11 @@
                         ><i class="fas fa-info-circle "></i>About</a
                         >
                     </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#team"
+                        ><i class="fas fa-users "></i>Team</a
+                        >
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services"
                         ><i class="fas fa-cog "></i>Services</a
@@ -192,64 +197,125 @@
     </div>
 </section>
 
+<section class="container" id="team">
+    <div class="row text-center ">
+        <!-- 1 -->
+        <div class="col-sm-3 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-1.png" alt="team member1">
+                <h5>Sue Mavis</h5>
+                <p>Managing Director</p>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="col-sm-3 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-2.png" alt="team member1">
+                <h5>Bill Thomas</h5>
+                <p>Technical Director</p>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="col-sm-3 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-3.png" alt="team member1">
+                <h5>Mary Loo</h5>
+                <p>Operations manager</p>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-sm-3 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-4.png" alt="team member1">
+                <h5>John Henry</h5>
+                <p>Warehouse Manager</p>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-5.png" alt="team member1">
+                <h5>Michelle Oyster</h5>
+                <p>HR Manager</p>
+            </div>
+        </div>
+        <!-- 1 -->
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-6.png" alt="team member1">
+                <h5>Ian Thompson</h5>
+                <p>Sales Manager</p>
+            </div>
+        </div>
+        <!-- 1 -->
+        <div class="col-sm-4 d-flex justify-content-center">
+            <div class="team-member ">
+                <img class="hvr-grow" src="assets/images/team-7.png" alt="team member1">
+                <h5>Nicole Philips</h5>
+                <p>Accounts Manager</p>
+            </div>
+        </div>
 
-    <!-- modals -->
-    <div
-            class="modal fade"
-            id="buy-modal-1"
-            role="dialog"
-            tabindex="-1"
-            aria-hidden="true"
-    >
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Product 1</h5>
-                </div>
+    </div>
+</section>
 
-                <div class="modal-body">
-                    <!-- body -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-sm-s12 buy-img">
-                                <img src="/assets/images/product-1.jpg" alt="Product 1"/>
-                            </div>
+<!-- modals -->
+<div
+        class="modal fade"
+        id="buy-modal-1"
+        role="dialog"
+        tabindex="-1"
+        aria-hidden="true"
+>
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Product 1</h5>
+            </div>
+
+            <div class="modal-body">
+                <!-- body -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-s12 buy-img">
+                            <img src="/assets/images/product-1.jpg" alt="Product 1"/>
                         </div>
-
-                        <form class=" form-row mt-3">
-                            <div class="form-group">
-                                <label for="quantity" id="qty-label"> QTY</label>
-                                <select class="form-control" id="quantity">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
-                            </div>
-                        </form>
                     </div>
-                </div>
 
-                <div class="modal-footer">
-                    <button
-                            type="button"
-                            class="btn btn-secondary"
-                            data-dismiss="modal"
-                    >
-                        Close
-                    </button>
-                    <button
-                            type="button"
-                            class="btn btn-primary"
-                            data-dismiss="modal"
-                    >
-                        Buy
-                    </button>
+                    <form class=" form-row mt-3">
+                        <div class="form-group">
+                            <label for="quantity" id="qty-label"> QTY</label>
+                            <select class="form-control" id="quantity">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </form>
                 </div>
+            </div>
+
+            <div class="modal-footer">
+                <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                >
+                    Close
+                </button>
+                <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-dismiss="modal"
+                >
+                    Buy
+                </button>
             </div>
         </div>
     </div>
+</div>
 
 
 <section id="services">
@@ -419,6 +485,7 @@
     </div>
 </section>
 <!-- contatct -->
+
 <section class="container-fluid py-6" id="contact">
     <div class="row justify-content-center">
         <div class="col">
@@ -525,7 +592,7 @@
             </ul>
         </div>
 
-        <!-- NEWS form -->
+        <!-- NEWSLETTER form -->
         <div class="col-lg-4 col-md-10 ">
             <p class="text-left">Subscribe to our newsletter</p>
             <form action="#" class="form-inline">

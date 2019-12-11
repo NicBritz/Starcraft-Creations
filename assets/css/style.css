@@ -201,6 +201,32 @@ body {
     padding: 50px;
 }
 
+/*Team*/
+
+#team {
+    padding: 4em;
+}
+.team-member{
+    width: 250px;
+    height: 250px;
+    background-color: #0062a5;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 100px;
+
+}
+
+.team-member img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.team-member h5{
+    padding-top: 50px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
 /* services */
 
 #services {
