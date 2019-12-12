@@ -149,7 +149,7 @@ body {
 /* About */
 
 #about {
-    padding: 4em ;
+    padding: 4em;
 }
 
 #about .card {
@@ -157,6 +157,7 @@ body {
     text-align: center;
     border-radius: 10px;
     height: 100%;
+
 }
 
 #about .card-body h5 {
@@ -198,7 +199,7 @@ body {
     margin-top: 1em;
     font-size: 1.2em;
     font-weight: 300;
-    padding: 50px;
+    padding: 20px;
 }
 
 /*Team*/
@@ -208,7 +209,8 @@ body {
     width: 100%;
     height: 100%;
 }
-.team-member{
+
+.team-member {
     width: 250px;
     height: 250px;
     background-color: #0062a5;
@@ -218,22 +220,23 @@ body {
 
 }
 
-.team-member img{
+.team-member img {
     width: 200px;
     height: 200px;
 }
 
 
-.team-member h5{
+.team-member h5 {
     padding-top: 50px;
     font-size: 1.3em;
     font-weight: 600;
 }
+
 /* services */
 
 #services {
-    padding: 5em ;
-
+    padding-top: 4em;
+    padding-bottom: 3em;
 }
 
 #services .card button:hover {
@@ -241,6 +244,9 @@ body {
     background-color: #1c7430;
 }
 
+#services .card button{
+    margin: 5px;
+}
 #services .card h5 {
     text-transform: uppercase;
     font-weight: 400;
@@ -256,167 +262,162 @@ body {
 #services .card p {
     font-weight: 300;
     text-align: left;
-    padding: 10px;
+    padding: 5px;
+
 }
 
 #services .card {
-    margin: 1.5em;
+    width: 90%;
+    margin: 1.9em;
     background-color: #00428d;
-    text-align: center;
-    box-shadow: 5px 3px 3px rgba(0, 98, 165, 0.5);
+
+
 }
 
 #services img {
+
     width: 100%;
     height: 100%;
 
 }
 
-/*.product-size img {*/
-/*    padding: 0;*/
-/*    border-radius: 5px;*/
-/*    margin-top: 5px;*/
-/*    width: 98%;*/
-/*}*/
+/*contact*/
 
-/*#services .card-body h5 {*/
-/*    text-transform: uppercase;*/
-/*    font-weight: 300;*/
-/*}*/
+/*form*/
 
-/*#services .card {*/
-/*    border-radius: 10px;*/
-/*}*/
+#contact h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding-left: 1em;
+}
 
-/*#services {*/
-/*    padding: 4em 2em;*/
-/*}*/
 
-/* contact */
+#contact-form {
+    width: 100%;
+    padding: 0 1em;
+    border-right: 1px solid #0062a5;
+    border-left: 1px solid #0062a5;
+
+}
+
+#contact-form input {
+    background-color: #00428d;
+    border: 0;
+    border-bottom: 1px solid #0062a5;
+    border-radius: 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#contact-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form textarea {
+    background-color: #0062a5;
+    border-color: #0062a5;
+    color: #fff;
+}
+
+#contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact .card {
+    padding: 10px;
+    margin: 4em;
+}
 
 .address {
     text-align: center;
 }
 
+#map {
+    padding: 20px;
+}
+
 #map iframe {
     border-radius: 5px;
-    border: solid 2px;
+    border: solid 2px #eae9f2;
     width: 100%;
-    height: 60vh;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .address i {
-    color: grey;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 0.5em;
     vertical-align: middle;
     padding: 5px;
 }
 
-.form-border {
-    border-radius: 5px;
-    border: 1px solid grey;
-}
-
-.form-style {
-    border-radius: 5px;
+#contact-form button:hover {
+    color: #fff;
+    background-color: #1c7430;
 }
 
 /* footer */
+
+#copyright p {
+    padding-left: 2em;
+    padding-top: 3em;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: left;
+}
+
+#mail-address {
+    padding: 2em;
+    text-align: center;
+
+}
+#mail-address a:hover{
+    color: rgba(255, 255, 255, 0.9); ;
+}
+
+#mail-address i{
+    padding-right: 5px;
+}
 
 .social li {
     list-style: none;
 }
 
-.icon {
-    font-size: 30px;
+.icon i{
+    font-size: 2.2em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-/* #services {
-  background-color: red;
+.icon i:hover{
+
+    color: #fff;
 }
 
-#about {
-  background-color: green;
+.social {
+    text-align: center;
+    padding-top: 3em;
 }
-
-#contact {
-
-  background-color: blue;
-}
-
-#footer {
-
-  background-color: rgb(218, 255, 9);
-} */
-
-/* media queries */
-
-/* @media (min-width: 2300px) {
-  .txt-header-title {
-    position: absolute;
-    top: 80vh;
-
-  }
-
-  .txt-header-title h1 {
-    font-size: 60px;
-    font-weight: 200;
-  }
-}
-
-
-
-@media (max-width: 640px) {
-
-  .txt-header-title h1 {
-    font-size: 2em;
-    padding-top: 0.5em;
-  }
-
+.subscribe-txt{
+    padding-top: 10px;
+    border-bottom: 0;
 
 }
 
-@media (max-width: 576px) {
-  .navbar-brand span {
-    font-size: 1em;
-    font-weight: 300;
-    padding-left: 6px;
-    letter-spacing: 1px;
-  }
-
-  #about .card {
-    padding: 5px;
-  }
+#newsletter{
+    padding-top: 1em;
+}
 
 
-  .txt-header-title h1 {
-    font-size: 1.5em;
-    padding-top: 0.5em;
-  }
+#newsletter input{
+    width: 60%;
+    padding: 0;
+    background-color: #0062a5;
+    border-color: #0062a5;
+    border-radius: 0;
+    color: #fff;
+}
 
-  .review {
-    font-size: 0.8em;
-    margin-bottom: 10%;
-  }
-
-} */
-
-/* @media(max-width:321px) {
-
-
-  .txt-header-title h1 {
-    font-size: 1.5em;
-    padding-top: 0.5em;
-
-  }
-
-  .about-card {
-    padding-top: 10%;
-  }
-
-  .review {
-    font-size: 0.8em;
-    margin-bottom: 10%;
-  }
-
-} */
