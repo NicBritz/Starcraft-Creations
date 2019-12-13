@@ -588,9 +588,11 @@ body {
         margin: 1em 0;
         font-size: 1em;
     }
-    #contact{
+
+    #contact {
         padding-top: 5.5em;
     }
+
     #contact .card {
         padding: 0.5em;
         margin: 0 0 4em;
@@ -607,7 +609,58 @@ body {
     .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         padding-right: 0;
         padding-left: 0;
+    }
+
+
+    #copyright p {
+        padding-top: 1em;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    #mail-address {
+        padding: 0;
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+        padding-top: 0.5em;
+    }
+
+    .subscribe-txt {
+        padding-top: 10px;
+        border-bottom: 0;
 
     }
 
+    #newsletter {
+        margin-left: 1em;
+    }
+
+    #newsletter input {
+        margin-left: 1em;
+        width: auto;
+    }
+
+    .subscribe-txt {
+        padding-left: 1em;
+        border-bottom: 0;
+    }
+
+    .icon i {
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+    }
+    .icon{
+        margin-left: auto;
+    }
+
+
+#modal-all input {
+    margin-bottom: 0;
+
 }
+}
+
+
