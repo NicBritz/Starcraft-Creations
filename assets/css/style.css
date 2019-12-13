@@ -156,7 +156,7 @@ body {
     font-weight: 300;
 }
 
-.place-card {
+.about-card {
     padding: 2em;
 }
 
@@ -214,8 +214,8 @@ body {
 }
 
 .team-member h5 {
-    padding-top: 75px;
-    font-size: 1.4em;
+    padding-top: 2.1em;
+    font-size: 2em;
     font-weight: 700;
     color: #fa4c33;
 }
@@ -545,25 +545,69 @@ body {
 
 @media (max-width: 320px) {
     #about {
-        padding: 1em;
+        padding: 5em 0 0 0;
     }
 
-    .place-card {
-        padding: 0;
+    element.style {
+        padding-right: 0;
     }
 
-    /*.txt-header-title h1 {*/
-    /*    padding: 0.5em 0 0 0.5em;*/
-    /*    font-size: 1.8em;*/
-    /*}*/
-    /* .txt-header-title p {*/
-    /*    font-size: 1em;*/
-    /*    font-weight: 200;*/
-    /*     padding-left: 15px;*/
-    /*     margin-top: 0;*/
-    /*}*/
-    /* .txt-header-title button {*/
-    /*    margin-top: 0;*/
-    /*    margin-bottom: 0.5em;*/
-    /*}*/
+    .about-card {
+        padding: 1em 1em 1em 1em;
+    }
+
+    #about .card-body h5 {
+        font-size: 1.5em;
+    }
+
+    #about .card-body p {
+        font-size: 1em;
+        font-weight: 200;
+    }
+
+    .review-text {
+        padding: 1em 2em;
+    }
+
+
+    #services .card button {
+        padding: 2px;
+    }
+
+    #services .card h5 {
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        padding-left: 1em;
+        margin: 0;
+        font-size: 1.3em;
+    }
+
+    #services .card p {
+        font-weight: 200;
+        padding: 0.2em 1.5em 2.5em;
+        margin: 1em 0;
+        font-size: 1em;
+    }
+    #contact{
+        padding-top: 5.5em;
+    }
+    #contact .card {
+        padding: 0.5em;
+        margin: 0 0 4em;
+    }
+
+    #contact h5 {
+        padding-top: 0.5em;
+        font-weight: 400;
+        font-size: 1.3em;
+        padding-left: 1em;
+
+    }
+
+    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        padding-right: 0;
+        padding-left: 0;
+
+    }
+
 }
