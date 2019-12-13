@@ -80,21 +80,26 @@
     <!-- Title Text -->
     <div class="container-fluid txt-header-title">
         <div class="row">
-            <div class="col-6" id="triangle">
+            <div class="col-md-6 col-12 " id="triangle">
                 <h1 class="text-uppercase col-light-grey ">
                     Professional 3d Printing service
                 </h1>
                 <p class="col-light-grey ">
                     Parts printed in as little as 1 working day!
                 </p>
-                <button
-                        type="button"
-                        class="btn  col-white float-right rounded-0 btn-success"
-                        data-toggle="modal"
-                        data-target="#buy-modal-1"
-                >
-                    Request a quote !
-                </button>
+
+
+                <div>
+                    <button
+                            type="button"
+                            class="btn  col-white float-right rounded-0 btn-success"
+                            data-toggle="modal"
+                            data-target="#buy-modal-1"
+                    >
+                        Request a quote !
+                    </button>
+
+                </div>
             </div>
         </div>
     </div>
@@ -103,7 +108,7 @@
 <!-- About section -->
 <section id="about">
     <div class="row justify-content-center card-group">
-        <div class="col-lg-4 col-md-5 col-sm-10 place-card mr-5">
+        <div class="col-lg-4 col-md-5 col-12 place-card ">
             <div class="card shadow-lg bg-dark-blue text-light ">
                 <img
                         src="assets/images/about-1.jpg"
@@ -120,7 +125,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-5 col-sm-10 place-card ml-5">
+        <div class="col-lg-4 col-md-5 col-sm-10 place-card ">
             <div class="card shadow-lg bg-dark-blue text-light">
                 <img
                         src="assets/images/about-2.jpg"
@@ -203,7 +208,7 @@
         <div class="col-sm-3 d-flex justify-content-center">
             <div class="team-member ">
                 <img class="hvr-grow" src="assets/images/team-1.png" alt="team member1">
-                <h5>Sue Mavis</h5>
+                <h5>Jessica Rabbit</h5>
                 <p>Managing Director</p>
             </div>
         </div>
@@ -211,7 +216,7 @@
         <div class="col-sm-3 d-flex justify-content-center">
             <div class="team-member ">
                 <img class="hvr-grow" src="assets/images/team-2.png" alt="team member1">
-                <h5>Bill Thomas</h5>
+                <h5>Spounge Bob </h5>
                 <p>Technical Director</p>
             </div>
         </div>
@@ -219,7 +224,7 @@
         <div class="col-sm-3 d-flex justify-content-center">
             <div class="team-member ">
                 <img class="hvr-grow" src="assets/images/team-3.png" alt="team member1">
-                <h5>Mary Loo</h5>
+                <h5>Minnie Mouse</h5>
                 <p>Operations manager</p>
             </div>
         </div>
@@ -227,7 +232,7 @@
         <div class="col-sm-3 d-flex justify-content-center">
             <div class="team-member ">
                 <img class="hvr-grow" src="assets/images/team-4.png" alt="team member1">
-                <h5>John Henry</h5>
+                <h5>Scooby Doo</h5>
                 <p>Warehouse Manager</p>
             </div>
         </div>
@@ -235,7 +240,7 @@
         <div class="col-sm-4 d-flex justify-content-center">
             <div class="team-member ">
                 <img class="hvr-grow" src="assets/images/team-5.png" alt="team member1">
-                <h5>Michelle Oyster</h5>
+                <h5>Olive Oyl</h5>
                 <p>HR Manager</p>
             </div>
         </div>
@@ -243,15 +248,15 @@
         <div class="col-sm-4 d-flex justify-content-center">
             <div class="team-member ">
                 <img class="hvr-grow" src="assets/images/team-6.png" alt="team member1">
-                <h5>Ian Thompson</h5>
+                <h5>Fred Flintstone</h5>
                 <p>Sales Manager</p>
             </div>
         </div>
         <!-- 1 -->
         <div class="col-sm-4 d-flex justify-content-center">
             <div class="team-member ">
-                <img class="hvr-grow" src="assets/images/team-7.png" alt="team member1">
-                <h5>Nicole Philips</h5>
+                <img class="hvr-grow" src="assets/images/team-7.png" alt="Betty Boop picture">
+                <h5>Betty Boop</h5>
                 <p>Accounts Manager</p>
             </div>
         </div>
@@ -327,8 +332,8 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label class="col-white" for="material-type" id="material-label"> Material</label>
-                            <select class="form-control" id="material-type" >
-                                <option >Choose...</option>
+                            <select class="form-control" id="material-type">
+                                <option>Choose...</option>
                                 <option>ABS Filament</option>
                                 <option>PLA Filament</option>
                                 <option>PET Filament</option>
@@ -391,7 +396,7 @@
 
 
 <section id="services">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mr-0">
         <!-- 1 -->
         <div class="col-sm-5 ">
             <div class="card">
@@ -577,7 +582,7 @@
 <section class="container-fluid" id="contact">
 
     <div class="row justify-content-center">
-        <div class="col-sm-6">
+        <div class="col-sm-10">
 
             <div class="card bg-dark-blue">
                 <div class="row">
@@ -586,7 +591,7 @@
                     </div>
                     <div class="col-sm-7">
                         <p class="address col-white">
-                            <i class="fas fa-circle"></i>27 Church Ln | Oakley | Bedford | MK43
+                            <i class="fas fa-circle"></i>27 Church Ln <b>|</b> Oakley <b>|</b> Bedford <b>|</b> MK43
                             7RJ
                         </p>
                     </div>
@@ -597,20 +602,42 @@
                         <form id="contact-form">
 
                             <!-- input -->
-
-                            <input
-                                    type="text"
-                                    placeholder="name"
-                                    class="form-control form-border "
-                                    id="contact-field-name"
-                            />
-
-                            <input
-                                    type="email"
-                                    placeholder="email"
-                                    class="form-control form-border "
-                                    id="contact-field-email"
-                            />
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <input
+                                            type="text"
+                                            placeholder="first name"
+                                            class="form-control form-border "
+                                            id="contact-field-name"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <input
+                                            type="text"
+                                            placeholder="last name"
+                                            class="form-control form-border "
+                                            id="contact-field-name"
+                                    />
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <input
+                                            type="text"
+                                            placeholder="email"
+                                            class="form-control form-border "
+                                            id="contact-field-name"
+                                    />
+                                </div>
+                                <div class="col-md-6">
+                                    <input
+                                            type="text"
+                                            placeholder="phone number"
+                                            class="form-control form-border "
+                                            id="contact-field-name"
+                                    />
+                                </div>
+                            </div>
 
 
                             <input
@@ -629,15 +656,17 @@
                                     id="contact-field-enquiry"
                             ></textarea>
 
+                            <div class="form-group">
 
-                            <button
-                                    type="button"
-                                    class="btn  col-white float-right rounded-0 btn-success "
-                                    data-toggle="modal"
-                                    data-target="#buy-modal-1"
-                            >
-                                Submit
-                            </button>
+                                <button
+                                        type="button"
+                                        class="btn  col-white float-right rounded-0 btn-success "
+                                        data-toggle="modal"
+                                        data-target="#buy-modal-1"
+                                >
+                                    Submit
+                                </button>
+                            </div>
                         </form>
                     </div>
                     <!-- map -->
@@ -656,7 +685,7 @@
 <!-- footer -->
 <footer class="bg-dark-blue text-light " id="footer">
 
-    <address class="row">
+    <address class="row mr-0">
         <!-- COPYRIGHT -->
         <div class="col-sm-2" id="copyright">
             <p class="col-white"><i class="far fa-copyright"></i> Copyright Nic Britz 2019</p>
@@ -671,19 +700,24 @@
         <div class="col-sm-4">
             <ul class="social list-inline">
                 <li class="list-inline-item icon">
-                    <a href="#" class="hvr-grow-shadow"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="hvr-grow-shadow"><i
+                            class="fab fa-facebook-square"></i></a>
                 </li>
                 <li class="list-inline-item icon">
-                    <a href="#" class="hvr-grow-shadow"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="hvr-grow-shadow"><i
+                            class="fab fa-twitter-square"></i></a>
                 </li>
                 <li class="list-inline-item icon">
-                    <a href="#" class="hvr-grow-shadow"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="hvr-grow-shadow"><i
+                            class="fab fa-instagram"></i></a>
                 </li>
                 <li class="list-inline-item icon">
-                    <a href="#" class="hvr-grow-shadow"><i class="fab fa-pinterest-square"></i></a>
+                    <a href="https://www.pinterest.co.uk/" target="_blank" class="hvr-grow-shadow"><i
+                            class="fab fa-pinterest-square"></i></a>
                 </li>
                 <li class="list-inline-item icon">
-                    <a href="#" class="hvr-grow-shadow"><i class="fab fa-google-plus-square"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="hvr-grow-shadow"><i
+                            class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>
@@ -707,7 +741,6 @@
                     Submit
                 </button>
             </form>
-        </div>
         </div>
 </footer>
 <!-- Scripts -->
