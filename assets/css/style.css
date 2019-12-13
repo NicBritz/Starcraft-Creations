@@ -291,6 +291,54 @@ body {
     padding-right: 2.5em;
     padding-bottom: 0.5em;
 }
+/* modal */
+/*.modal-content{*/
+/*    background-color: rgba(0, 47, 127, 0.87);*/
+/*}*/
+
+/*#modal-all textarea::placeholder {*/
+/*    color: #eae9f2;*/
+/*}*/
+/*#modal-all input::placeholder {*/
+/*    color: #eae9f2;*/
+/*}*/
+
+/*#modal-form textarea, .form-control{*/
+/*    border-color:#eae9f2;*/
+/*    background-color: #0062a5;*/
+/*}*/
+/*#modal-form input{*/
+/*    border-radius: 0;*/
+/*    border:0;*/
+/*    border-bottom: 1px solid #e5e4ed;*/
+/*}*/
+.modal-content{
+    background-color: #0062a5;
+}
+#modal-all input {
+    background-color: #0062a5;
+    border: 0;
+    border-bottom: 1px solid #00428d;
+    border-radius: 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#modal-all input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#modal-all textarea, .form-control {
+    background-color: #0062a5;
+    border-color: #00428d;
+    color: #fff;
+}
+
+#modal-all textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
 /*contact*/
 
 /*form*/

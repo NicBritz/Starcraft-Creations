@@ -267,16 +267,16 @@
         tabindex="-1"
         aria-hidden="true"
 >
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog modal-lg" role="document" id="modal-all">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Quote Request</h5>
+                <h5 class="modal-title col-white">Quote Request</h5>
             </div>
 
             <div class="modal-body">
 
                 <!-- body -->
-                <div class="form">
+                <div class="form" id="modal-form">
                     <div class="form-row">
                         <div class="form-group col-md-6">
 
@@ -297,41 +297,73 @@
                             />
                         </div>
                     </div>
-                    <div class="form-group">
-                        <input
-                                type="text"
-                                placeholder="email"
-                                class="form-control form-border "
-                                id="quote-contact-field-email"
-                        />
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input
+                                    type="text"
+                                    placeholder="email"
+                                    class="form-control form-border "
+                                    id="quote-contact-field-email"
+                            />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input
+                                    type="text"
+                                    placeholder="phone number"
+                                    class="form-control form-border "
+                                    id="quote-contact-field-phone"
+                            />
+                        </div>
                     </div>
                     <div class="form-group">
                         <input
                                 type="text"
-                                placeholder="address"
+                                placeholder="Subject"
                                 class="form-control form-border "
-                                id="quote-contact-field-address"
+                                id="quote-contact-field-subject"
                         />
                     </div>
 
-
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="col-white" for="material-type" id="material-label"> Material</label>
+                            <select class="form-control" id="material-type" >
+                                <option >Choose...</option>
+                                <option>ABS Filament</option>
+                                <option>PLA Filament</option>
+                                <option>PET Filament</option>
+                                <option>PETT Filament</option>
+                                <option>Nylon Filament</option>
+                                <option>PVA Filament</option>
+                                <option>Wood Filament</option>
+                                <option>Metal Filament</option>
+                                <option>HIPS Filament</option>
+                                <option>Magnetic Iron Filament</option>
+                                <option>Conductive Filament</option>
+                                <option>Carbon Fiber Filament</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="col-white" for="quality-type" id="quality-label"> Quality</label>
+                            <select class="form-control " id="quality-type">
+                                <option>Choose...</option>
+                                <option>Low Grade</option>
+                                <option>Medium Grade</option>
+                                <option>High Grade</option>
+                                <option>Medical Grade</option>
+                                <option>High Strength</option>
+                                <option>Flexible</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="form-group">
-                        <label for="quantity" id="qty-label"> Material</label>
-                        <select class="form-control" id="quantity">
-                            <option>Choose...</option>
-                            <option>ABS Filament</option>
-                            <option>PLA Filament</option>
-                            <option>PET Filament</option>
-                            <option>PETT Filament</option>
-                            <option>Nylon Filament</option>
-                            <option>PVA Filament</option>
-                            <option>Wood Filament</option>
-                            <option>Metal Filament</option>
-                            <option>HIPS Filament</option>
-                            <option>Magnetic Iron Filament</option>
-                            <option>Conductive Filament</option>
-                            <option>Carbon Fiber Filament</option>
-                        </select>
+                        <textarea
+                                name="enquiry"
+                                placeholder="Message"
+                                rows="12"
+                                class=" form-control  form-border "
+                                id="contact-field-message"
+                        ></textarea>
                     </div>
                 </div>
             </div>
@@ -573,11 +605,10 @@
                                     id="contact-field-name"
                             />
 
-
                             <input
                                     type="email"
                                     placeholder="email"
-                                    class="form-control form-border bg-lgrey"
+                                    class="form-control form-border "
                                     id="contact-field-email"
                             />
 
@@ -585,7 +616,7 @@
                             <input
                                     type="text"
                                     placeholder="subject"
-                                    class="form-control form-border bg-lgrey"
+                                    class="form-control form-border "
                                     id="contact-field-subject"
                             />
 
@@ -594,7 +625,7 @@
                                     name="enquiry"
                                     placeholder="enquiry"
                                     rows="12"
-                                    class=" form-control  form-border bg-lgrey"
+                                    class=" form-control  form-border "
                                     id="contact-field-enquiry"
                             ></textarea>
 
