@@ -520,6 +520,25 @@ body {
     .txt-header-title button {
         margin-bottom: 0;
     }
+    .about-card {
+        padding: 1em 1em 1em 1em;
+    }
+    #about {
+        padding: 5em 0 0 0;
+    }
+
+    #about .card-body h5 {
+        font-size: 1.5em;
+    }
+
+    #about .card-body p {
+        font-size: 1em;
+        font-weight: 200;
+    }
+
+    .review-text {
+        padding: 3em 2em;
+    }
 }
 
 
@@ -539,24 +558,6 @@ body {
     .txt-header-title button {
         margin-top: 0;
         margin-bottom: 0.5em;
-    }
-
-    #about {
-        padding: 5em 0 0 0;
-    }
-
-
-    .about-card {
-        padding: 1em 1em 1em 1em;
-    }
-
-    #about .card-body h5 {
-        font-size: 1.5em;
-    }
-
-    #about .card-body p {
-        font-size: 1em;
-        font-weight: 200;
     }
 
     .review-text {
