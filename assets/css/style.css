@@ -52,7 +52,6 @@ body {
     background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     width: 100vw;
