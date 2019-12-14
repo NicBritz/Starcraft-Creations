@@ -1,5 +1,5 @@
 /* Fonts / General */
-/*@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700");*/
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700");
 
 html {
@@ -12,6 +12,12 @@ body {
     background-color: #eae9f2;
     padding: 0;
 }
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* colors */
 
@@ -35,13 +41,15 @@ body {
     color: #fff;
 }
 
-.btn-success {
-    background-color: #fa4c33;;
+.btn-danger {
+    background-color: #fa4c33;
+    border-color:#fa4c33;
 }
+
 
 /* / Jumbotron / */
 #home {
-    background-image: url("../images/cover-2.jpg");
+    background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
@@ -92,7 +100,6 @@ body {
     padding-bottom: 5px;
 }
 
-
 /* Header Title */
 .txt-header-title {
     background-color: rgba(0, 98, 165, 0.5);
@@ -100,12 +107,11 @@ body {
     left: 0;
     bottom: 0;
     width: 100vw;
-
-
+    padding: 0;
 }
 
 .txt-header-title h1 {
-    padding: 1em 0 0 1em;
+    padding: 1.5em 0 0 1em;
     font-weight: 500;
     font-size: 3em;
 }
@@ -116,10 +122,9 @@ body {
     padding-left: 50px;
 }
 
-
 .txt-header-title button:hover {
     color: #fff;
-    background-color: #be3f28;;
+    background-color: #be3f28;
 }
 
 #triangle {
@@ -127,29 +132,30 @@ body {
     height: 0;
     border-bottom: 250px solid rgba(0, 98, 165, 0.6);
     border-right: 100px solid transparent;
+
 }
 
 /* About */
 
-#about {
-    padding: 4em;
-}
+/*#about-container {*/
+/*    padding: 4em;*/
+/*}*/
 
-#about .card {
+#about-container .card {
     margin-top: 1em;
     text-align: center;
-    border-radius: 10px;
-    height: 100%;
 
+    border: 2px solid #be3f28;
+    height: 100%;
 }
 
-#about .card-body h5 {
+#about-container .card-body h5 {
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 500;
 }
 
-#about .card-body p {
+#about-container .card-body p {
     margin-top: 1em;
     margin-bottom: 0;
     font-size: 1.1em;
@@ -187,10 +193,10 @@ body {
 
 /*Team*/
 
-#team {
-    padding: 2em;
+#team-container {
     width: 100%;
     height: 100%;
+    padding-bottom: 1em;
 }
 
 .team-member {
@@ -200,7 +206,6 @@ body {
     border-radius: 50%;
     border: 3px solid #fa4c33;
     margin-top: 100px;
-
 }
 
 .team-member img {
@@ -222,15 +227,10 @@ body {
 
 /* services */
 
-#services {
-    margin-top: 4em;
-    padding-top: 6em;
-    padding-bottom: 2em;
-}
 
 #services .card button:hover {
     color: #fff;
-    background-color: #be3f28;;;
+    background-color: #be3f28;
 }
 
 #services .card button {
@@ -246,7 +246,6 @@ body {
     margin: 0;
     font-size: 1.3em;
     border-bottom: 3px solid #fa4c33;
-
 }
 
 #services .card p {
@@ -254,19 +253,21 @@ body {
     text-align: left;
     padding-top: 1.2em;
     padding-right: 10px;
-
-
 }
 
 #services .card {
-
     margin: 1em;
+    padding: 0;
     background-color: #00428d;
+    border: 2px solid #be3f28;
 }
 
 #services img {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
+
 }
 
 #services img:hover {
@@ -300,7 +301,8 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-#modal-all textarea, .form-control {
+#modal-all textarea,
+.form-control {
     background-color: #0062a5;
     border-color: #00428d;
     color: #fff;
@@ -309,7 +311,6 @@ body {
 #modal-all textarea::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
-
 
 /*contact*/
 
@@ -320,16 +321,13 @@ body {
     font-weight: 400;
     font-size: 1.3em;
     padding-left: 1em;
-
 }
-
 
 #contact-form {
     width: 100%;
     padding: 0 1em;
     border-right: 2px solid #fa4c33;
     border-left: 2px solid #fa4c33;
-
 }
 
 #contact-form input {
@@ -413,7 +411,6 @@ body {
 #mail-address {
     padding: 2em;
     text-align: center;
-
 }
 
 #mail-address a:hover {
@@ -436,7 +433,6 @@ body {
 }
 
 .icon i:hover {
-
     color: #fa4c33;
 }
 
@@ -448,13 +444,11 @@ body {
 .subscribe-txt {
     padding-top: 10px;
     border-bottom: 0;
-
 }
 
 #newsletter {
     padding-top: 1em;
 }
-
 
 #newsletter input {
     /*width: 60%;*/
@@ -471,7 +465,6 @@ body {
 
 /* ---- Media ----*/
 
-
 @media (max-width: 1440px) {
     .txt-header-title h1 {
         padding: 2em 0 0 0.2em;
@@ -483,7 +476,6 @@ body {
         font-weight: 200;
         padding-left: 05px;
     }
-
 
     .txt-header-title button {
         margin-bottom: 0;
@@ -516,22 +508,20 @@ body {
         padding-left: 05px;
     }
 
-
     .txt-header-title button {
         margin-bottom: 0;
     }
+
     .about-card {
         padding: 1em 1em 1em 1em;
     }
-    #about {
-        padding: 5em 0 0 0;
-    }
 
-    #about .card-body h5 {
+
+    #about-container .card-body h5 {
         font-size: 1.5em;
     }
 
-    #about .card-body p {
+    #about-container .card-body p {
         font-size: 1em;
         font-weight: 200;
     }
@@ -539,82 +529,66 @@ body {
     .review-text {
         padding: 3em 2em;
     }
-}
 
-
-@media (max-width: 425px) {
-    .txt-header-title h1 {
-        padding: 0.5em 0 0 0.5em;
-        font-size: 1.8em;
+    #services {
+        padding-top: 5em;
     }
 
-    .txt-header-title p {
-        font-size: 1em;
-        font-weight: 200;
-        padding-left: 15px;
-        margin-top: 0;
+    #services .product-card {
+        padding: 0;
     }
-
-    .txt-header-title button {
-        margin-top: 0;
-        margin-bottom: 0.5em;
-    }
-
-    .review-text {
-        padding: 1em 2em;
-    }
-
 
     #services .card button {
-        padding: 2px;
+        padding: 5px;
+
+    }
+    .service-btn{
+        padding: 0;
     }
 
     #services .card h5 {
-        padding-top: 0.2em;
-        padding-bottom: 0.2em;
-        padding-left: 1em;
+        padding: 0.3em 1em;
         margin: 0;
         font-size: 1.3em;
     }
 
     #services .card p {
-        font-weight: 200;
-        padding: 0.2em 1.5em 2.5em;
+        font-weight: 300;
+        padding: 0 1.5em 2.5em;
         margin: 1em 0;
         font-size: 1em;
     }
 
     #contact {
-        padding-top: 5.5em;
+        padding: 5.5em 10px 0;
     }
 
     #contact .card {
-        padding: 0.5em;
         margin: 0 0 4em;
     }
 
     #contact h5 {
         padding-top: 0.5em;
-        font-weight: 400;
-        font-size: 1.3em;
-        padding-left: 1em;
-
-    }
-
-    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-
-    #copyright p {
-        padding-top: 1em;
         font-weight: 300;
-        text-align: center;
+    }
+
+    #contact .contact-card {
+        padding: 0;
+    }
+
+    #contact .enquiry {
+        height: 200px;
+    }
+
+    #map {
+        padding: 0;
+        padding-top: 1em;
+        height: 250px;
     }
 
     #mail-address {
         padding: 0;
+        padding-top: 1em;
         text-align: center;
     }
 
@@ -626,17 +600,17 @@ body {
     .subscribe-txt {
         padding-top: 10px;
         border-bottom: 0;
-
     }
 
     #newsletter {
         margin-left: 1em;
         margin-bottom: 1em;
+        padding: 0;
+
     }
 
     #newsletter input {
         margin-left: 1em;
-
     }
 
     .subscribe-txt {
@@ -657,9 +631,88 @@ body {
         margin-bottom: 0;
     }
 
-    address{
+    address {
         margin-bottom: 0;
+    }
+
+    #copyright p {
+        padding: 0;
+        padding-top: 1em;
+        margin-top: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+
+     #newsletter {
+        margin:0;
+    }
+
+    #newsletter input {
+        margin-left: 1em;
+    }
+    .newsletter-field{
+        margin-left: 0 ;
+    }
+    .subscribe-txt {
+        padding-left: 1em;
+        border-bottom: 0;
+    }
+
+    .icon i {
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+    }
+
+    .icon {
+        margin-left: auto;
+    }
+    .newsletter-button{
+        padding-left:0 ;
+    }
+    #modal-all input {
+        margin-bottom: 0;
+    }
+
+    address {
+        margin-bottom: 0;
+    }
+    .review-text {
+        padding: 1em 2em;
+    }
+
+    .social {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .subscribe-txt {
+        padding: 10px 0 0;
+        border-bottom: 0;
     }
 }
 
+/*@media (max-width: 425px) {*/
 
+/*    .txt-header-title h1 {*/
+/*        padding: 1.5em 0 0 0.5em;*/
+/*        font-size: 1.6em;*/
+/*    }*/
+
+/*    .txt-header-title p {*/
+/*        font-size: 1em;*/
+/*        font-weight: 200;*/
+/*        padding-left: 1em;*/
+
+
+/*    }*/
+
+/*    .txt-header-title button {*/
+/*        margin-top: 0;*/
+/*        margin-bottom: 0.5em;*/
+/*    }*/
+
+
+
+
+/*}*/
