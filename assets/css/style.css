@@ -50,6 +50,7 @@ body {
 /* / Jumbotron / */
 #home {
     background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
+    background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
