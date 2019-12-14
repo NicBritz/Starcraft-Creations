@@ -457,7 +457,7 @@ body {
 
 
 #newsletter input {
-    width: 60%;
+    /*width: 60%;*/
     padding: 0;
     background-color: #0062a5;
     border-color: #0062a5;
@@ -495,7 +495,6 @@ body {
         padding-left: 10px;
     }
 
-
     .navbar-dark .navbar-nav .nav-link {
         margin-right: 20px;
     }
@@ -523,8 +522,8 @@ body {
     }
 }
 
-@media (max-width: 425px) {
 
+@media (max-width: 425px) {
     .txt-header-title h1 {
         padding: 0.5em 0 0 0.5em;
         font-size: 1.8em;
@@ -541,16 +540,11 @@ body {
         margin-top: 0;
         margin-bottom: 0.5em;
     }
-}
 
-@media (max-width: 320px) {
     #about {
         padding: 5em 0 0 0;
     }
 
-    element.style {
-        padding-right: 0;
-    }
 
     .about-card {
         padding: 1em 1em 1em 1em;
@@ -636,11 +630,12 @@ body {
 
     #newsletter {
         margin-left: 1em;
+        margin-bottom: 1em;
     }
 
     #newsletter input {
         margin-left: 1em;
-        width: auto;
+
     }
 
     .subscribe-txt {
@@ -652,15 +647,18 @@ body {
         padding-left: 0.1em;
         padding-right: 0.1em;
     }
-    .icon{
+
+    .icon {
         margin-left: auto;
     }
 
+    #modal-all input {
+        margin-bottom: 0;
+    }
 
-#modal-all input {
-    margin-bottom: 0;
-
-}
+    address{
+        margin-bottom: 0;
+    }
 }
 
 
