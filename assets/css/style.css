@@ -43,7 +43,7 @@ body {
 
 .btn-danger {
     background-color: #fa4c33;
-    border-color:#fa4c33;
+    border-color: #fa4c33;
 }
 
 
@@ -53,11 +53,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     margin-bottom: 0;
     z-index: 1;
 }
+
 
 /*navbar*/
 #home nav {
@@ -490,6 +492,10 @@ body {
     .navbar-dark .navbar-nav .nav-link {
         margin-right: 20px;
     }
+
+    .jumbotron {
+        background-attachment: scroll;
+    }
 }
 
 @media (max-width: 768px) {
@@ -542,7 +548,8 @@ body {
         padding: 5px;
 
     }
-    .service-btn{
+
+    .service-btn {
         padding: 0;
     }
 
@@ -643,16 +650,18 @@ body {
         text-align: center;
     }
 
-     #newsletter {
-        margin:0;
+    #newsletter {
+        margin: 0;
     }
 
     #newsletter input {
         margin-left: 1em;
     }
-    .newsletter-field{
-        margin-left: 0 ;
+
+    .newsletter-field {
+        margin-left: 0;
     }
+
     .subscribe-txt {
         padding-left: 1em;
         border-bottom: 0;
@@ -666,9 +675,11 @@ body {
     .icon {
         margin-left: auto;
     }
-    .newsletter-button{
-        padding-left:0 ;
+
+    .newsletter-button {
+        padding-left: 0;
     }
+
     #modal-all input {
         margin-bottom: 0;
     }
@@ -676,6 +687,7 @@ body {
     address {
         margin-bottom: 0;
     }
+
     .review-text {
         padding: 1em 2em;
     }
@@ -711,8 +723,6 @@ body {
 /*        margin-top: 0;*/
 /*        margin-bottom: 0.5em;*/
 /*    }*/
-
-
 
 
 /*}*/
