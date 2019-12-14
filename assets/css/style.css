@@ -48,14 +48,14 @@ body {
 
 
 /* / Jumbotron / */
-#home {
+.jumbotron {
     background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     margin-bottom: 0;
     z-index: 1;
 }
