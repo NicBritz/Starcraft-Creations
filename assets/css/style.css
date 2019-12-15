@@ -11,11 +11,11 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     background-color: #eae9f2;
     padding: 0;
+    margin: 0;
 }
 
 .row {
     margin: 0;
-    padding: 0;
 }
 
 
@@ -227,16 +227,31 @@ body {
     color: #fa4c33;
 }
 
-/* services */
-
-
-#services .card button:hover {
-    color: #fff;
-    background-color: #be3f28;
+/* ################### Services ###################  */
+#services .container-flex{
+    padding: 4em 0;
 }
+
+#services .product-card{
+    padding: 1em ;
+}
+
+#services .card {
+    background-color: #00428d;
+    border: 2px solid #be3f28;
+    padding: 0;
+
+}
+
+.product-img{
+    padding: 0 0 0 0;
+    height: 100%;
+}
+
 
 #services .card button {
     margin: 5px;
+
 }
 
 #services .card h5 {
@@ -257,12 +272,7 @@ body {
     padding-right: 10px;
 }
 
-#services .card {
-    margin: 1em;
-    padding: 0;
-    background-color: #00428d;
-    border: 2px solid #be3f28;
-}
+
 
 #services img {
     margin: 0;
@@ -276,13 +286,13 @@ body {
     cursor: pointer;
 }
 
-.service-btn {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-right: 2.5em;
-    padding-bottom: 0.5em;
-}
+/*.service-btn {*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    right: 0;*/
+/*    padding-right: 2.5em;*/
+/*    padding-bottom: 0.5em;*/
+/*}*/
 
 /* modal */
 
@@ -314,33 +324,60 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-/*contact*/
 
 /* ################### Contact form ###################  */
-#contact .container-fluid{
+#contact{
+    padding: 1em;
+}
+#contact .container {
     padding: 2em 0;
 }
 
-#contact h5 {
+#contact .card {
+    padding: 1em;
+}
+
+.contact-heading {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 1.3em;
-    padding-left: 1em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-address {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact-address b {
+    color: #fa4c33;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.contact-address i {
+    color: #fa4c33;
+    font-size: 0.5em;
+    vertical-align: middle;
+    letter-spacing: 5px;
+}
+
+.contact-card {
+    padding: 0;
 }
 
 #contact-form {
-    width: 100%;
-    padding: 0 1em;
+    padding: 1em;
     border-right: 2px solid #fa4c33;
     border-left: 2px solid #fa4c33;
 }
 
-#contact-form input {
-    background-color: #00428d;
+#contact-form input{
+    background-color: #003d7a;
     border: 0;
-    border-bottom: 1px solid #0062a5;
-    border-radius: 0;
-    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
     color: #fff;
 }
 
@@ -349,8 +386,10 @@ body {
 }
 
 #contact-form textarea {
-    background-color: #0062a5;
-    border-color: #0062a5;
+    background-color: #003d7a;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0;
     color: #fff;
 }
 
@@ -358,22 +397,8 @@ body {
     color: rgba(255, 255, 255, 0.5);
 }
 
-#contact .card {
-    padding: 10px;
-}
-
-.address {
-    text-align: center;
-    letter-spacing: 2px;
-}
-
-.address b {
-    color: #fa4c33;
-    font-size: 1.2em;
-}
-
-#map {
-    padding: 20px;
+#map{
+    padding: 0 0 0 10px;
 }
 
 #map iframe {
@@ -381,43 +406,30 @@ body {
     border: solid 2px #eae9f2;
     width: 100%;
     height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.address i {
-    color: #fa4c33;
-    font-size: 0.5em;
-    vertical-align: middle;
-
-    letter-spacing: 5px;
-}
-
-#contact-form button {
-    margin-top: 10px;
-}
-
-#contact-form button:hover {
-    color: #fff;
-    background-color: #1c7430;
 }
 
 /* ################### Footer ###################  */
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-.mail-address, .social {
+.contact-info, .social {
     text-align: center;
     padding: 1em 0 0;
 }
 
-.mail-address a {
+.contact-info a {
     color: #fff;
 }
 
-.mail-address a:hover {
+.contact-info a:hover {
     color: #fa4c33;
 }
 
-.mail-address i {
+.contact-info i {
     padding-right: 5px;
 }
 
@@ -446,42 +458,39 @@ body {
 
 /* ################### Media queries ###################  */
 
-@media (max-width: 1440px) {
-    .txt-header-title h1 {
-        padding: 2em 0 0 0.2em;
-        font-size: 2em;
-    }
+/*@media (max-width: 1440px) {*/
+/*    .txt-header-title h1 {*/
+/*        padding: 2em 0 0 0.2em;*/
+/*        font-size: 2em;*/
+/*    }*/
 
-    .txt-header-title p {
-        font-size: 1.3em;
-        font-weight: 200;
-        padding-left: 05px;
-    }
+/*    .txt-header-title p {*/
+/*        font-size: 1.3em;*/
+/*        font-weight: 200;*/
+/*        padding-left: 05px;*/
+/*    }*/
 
-    .txt-header-title button {
-        margin-bottom: 0;
-    }
-}
+/*    .txt-header-title button {*/
+/*        margin-bottom: 0;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 1024px) {
-    #logo {
-        padding-left: 10px;
-    }
+/*@media (max-width: 1024px) {*/
+/*    #logo {*/
+/*        padding-left: 10px;*/
+/*    }*/
 
-    .navbar-dark .navbar-nav .nav-link {
-        margin-right: 20px;
-    }
+/*    .navbar-dark .navbar-nav .nav-link {*/
+/*        margin-right: 20px;*/
+/*    }*/
 
-    .jumbotron {
-        background-attachment: scroll;
-    }
-}
+/*    .jumbotron {*/
+/*        background-attachment: scroll;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1024px) {
 
-}
-
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     #logo {
         padding-left: 5px;
     }
@@ -515,13 +524,10 @@ body {
         padding: 3em 2em;
     }
 
-    #services {
-        padding-top: 5em;
-    }
+    /*#services {*/
+    /*    padding-top: 5em;*/
+    /*}*/
 
-    #services .product-card {
-        padding: 0;
-    }
 
     #services .card button {
         padding: 5px;
@@ -545,30 +551,14 @@ body {
         font-size: 1em;
     }
 
-    #contact {
-        padding: 5.5em 10px 0;
-    }
-
-    #contact h5 {
-        padding-top: 0.5em;
-        font-weight: 300;
-    }
-
-    #contact .contact-card {
-        padding: 0;
-    }
-
     #contact .enquiry {
         height: 200px;
     }
 
     #map {
-        padding: 0;
-        padding-top: 1em;
-        height: 250px;
+        padding: 1em 0 0;
+        height: 300px;
     }
-
-
 
 
     #modal-all input {
@@ -590,7 +580,6 @@ body {
     .review-text {
         padding: 1em 2em;
     }
-
 
 
 }
