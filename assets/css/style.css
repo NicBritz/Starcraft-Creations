@@ -238,7 +238,7 @@ body {
 }
 
 #services .card {
-    background-color: #00428d;
+    background-color: #0062a5;
     border: 2px solid #be3f28;
 }
 
@@ -282,36 +282,6 @@ body {
     padding-right: 10px;
 }
 
-
-/* modal */
-
-.modal-content {
-    background-color: #0062a5;
-}
-
-#modal-all input {
-    background-color: #0062a5;
-    border: 0;
-    border-bottom: 1px solid #00428d;
-    border-radius: 0;
-    margin-bottom: 10px;
-    color: #fff;
-}
-
-#modal-all input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-#modal-all textarea,
-.form-control {
-    background-color: #0062a5;
-    border-color: #00428d;
-    color: #fff;
-}
-
-#modal-all textarea::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-}
 
 
 /* ################### Contact form ###################  */
@@ -364,11 +334,15 @@ body {
 }
 
 #contact-form input {
-    background-color: #003d7a;
-    border: 0;
+    background-color: #0062a5;
+    border-color: #00428d;
     border-radius: 5px;
     margin: 5px 0;
     color: #fff;
+}
+
+#contact-form input:focus {
+    background-color: #00428d;
 }
 
 #contact-form input::placeholder {
@@ -376,11 +350,15 @@ body {
 }
 
 #contact-form textarea {
-    background-color: #003d7a;
-    border: 0;
+    background-color: #0062a5;
+    border-color: #00428d;
     border-radius: 5px;
     margin: 10px 0;
     color: #fff;
+}
+
+#contact-form textarea:focus {
+    background-color: #00428d;
 }
 
 #contact-form textarea::placeholder {
@@ -396,6 +374,101 @@ body {
     border: solid 2px #eae9f2;
     width: 100%;
     height: 100%;
+}
+
+/* ################### Modals ###################  */
+/*quote modal*/
+#quote-modal-container {
+    padding: 10px;
+}
+
+.close {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.close:hover {
+    color: #fff;
+
+}
+
+#quote-modal-container .modal-header {
+    border-bottom: 3px solid #fa4c33;
+    padding: 10px;
+}
+
+#quote-modal-container .modal-header h5 {
+    font-size: 2em;
+}
+
+#quote-modal-container .modal-body input {
+    background-color: #0062a5;
+    border-color: #00428d;
+    color: #fff;
+    border-bottom: 1px solid #00428d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#quote-modal-container input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container input:focus {
+    background-color: #00428d;
+    border-color: #00428d;
+}
+
+#quote-modal-container textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container textarea:focus {
+    background-color: #00428d;
+    border-color: #00428d;
+}
+
+#quote-modal-container textarea {
+    background-color: #0062a5;
+    border-color: #00428d;
+    color: #fff;
+}
+
+.modal-dropdown {
+    background-color: #0062a5;
+    border-color: #00428d;
+    color: #fff;
+}
+
+.modal-dropdown:focus {
+    background-color: #0062a5;
+    border-color: #00428d;
+    color: #fff;
+}
+
+.modal-dropdown option {
+    background-color: #00428d;
+    border-color: #00428d;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container .modal-footer {
+    border-top: 3px solid #fa4c33;
+}
+
+/*success modal*/
+#success-modal-container .modal-header {
+    border-bottom: 3px solid #fa4c33;
+    padding: 10px;
+}
+#success-modal-container .modal-header h5{
+   font-size: 2em;
+}
+#success-modal-container .modal-footer{
+    border-top: 3px solid #fa4c33;
+    padding: 10px;
 }
 
 /* ################### Footer ###################  */
@@ -484,36 +557,28 @@ body {
     /*#logo {*/
     /*    padding-left: 5px;*/
     /*}*/
-
     /*.txt-header-title h1 {*/
     /*    padding: 2em 0 0 0.2em;*/
     /*    font-size: 1.5em;*/
     /*}*/
-
     /*.txt-header-title p {*/
     /*    font-size: 1em;*/
     /*    font-weight: 200;*/
     /*    padding-left: 05px;*/
     /*}*/
-
     /*.txt-header-title button {*/
     /*    margin-bottom: 0;*/
     /*}*/
-
-
     /*#about-container .card-body h5 {*/
     /*    font-size: 1.5em;*/
     /*}*/
-
     /*#about-container .card-body p {*/
     /*    font-size: 1em;*/
     /*    font-weight: 200;*/
     /*}*/
-
     /*.review-text {*/
     /*    padding: 3em 2em;*/
     /*}*/
-
     /* ############### services ################*/
     .product-img {
         padding: 0;
@@ -539,8 +604,6 @@ body {
     /*#modal-all input {*/
     /*    margin-bottom: 0;*/
     /*}*/
-
-
     /*.review-text {*/
     /*    padding: 1em 2em;*/
     /*}*/
