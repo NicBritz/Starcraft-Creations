@@ -316,7 +316,10 @@ body {
 
 /*contact*/
 
-/*form*/
+/* ################### Contact form ###################  */
+#contact .container-fluid{
+    padding: 2em 0;
+}
 
 #contact h5 {
     text-transform: uppercase;
@@ -357,7 +360,6 @@ body {
 
 #contact .card {
     padding: 10px;
-    margin: 4em;
 }
 
 .address {
@@ -400,26 +402,22 @@ body {
     background-color: #1c7430;
 }
 
-/* footer */
+/* ################### Footer ###################  */
 
-#copyright p {
-    padding-left: 2em;
-    padding-top: 3em;
-    font-size: 1em;
-    font-weight: 400;
-    text-align: left;
-}
-
-#mail-address {
-    padding: 2em;
+.mail-address, .social {
     text-align: center;
+    padding: 1em 0 0;
 }
 
-#mail-address a:hover {
+.mail-address a {
+    color: #fff;
+}
+
+.mail-address a:hover {
     color: #fa4c33;
 }
 
-#mail-address i {
+.mail-address i {
     padding-right: 5px;
 }
 
@@ -427,45 +425,26 @@ body {
     list-style: none;
 }
 
-.icon i {
-    font-size: 2.2em;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
+.social-icon {
+    font-size: 2em;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.icon i:hover {
+.social-icon i:hover {
     color: #fa4c33;
 }
 
-.social {
+.copyright {
+    margin: 0;
+    font-weight: 300;
     text-align: center;
-    padding-top: 3em;
+    height: 100%;
+    padding: 1em 0;
 }
 
-.subscribe-txt {
-    padding-top: 10px;
-    border-bottom: 0;
-}
-
-#newsletter {
-    padding-top: 1em;
-}
-
-#newsletter input {
-    /*width: 60%;*/
-    padding: 0;
-    background-color: #0062a5;
-    border-color: #0062a5;
-    border-radius: 0;
-    color: #fff;
-}
-
-#newsletter input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-/* ---- Media ----*/
+/* ################### Media queries ###################  */
 
 @media (max-width: 1440px) {
     .txt-header-title h1 {
@@ -498,6 +477,10 @@ body {
     }
 }
 
+@media (min-width: 1024px) {
+
+}
+
 @media (max-width: 768px) {
     #logo {
         padding-left: 5px;
@@ -516,10 +499,6 @@ body {
 
     .txt-header-title button {
         margin-bottom: 0;
-    }
-
-    .about-card {
-        padding: 1em 1em 1em 1em;
     }
 
 
@@ -570,10 +549,6 @@ body {
         padding: 5.5em 10px 0;
     }
 
-    #contact .card {
-        margin: 0 0 4em;
-    }
-
     #contact h5 {
         padding-top: 0.5em;
         font-weight: 300;
@@ -593,46 +568,8 @@ body {
         height: 250px;
     }
 
-    #mail-address {
-        padding: 0;
-        padding-top: 1em;
-        text-align: center;
-    }
 
-    .social {
-        text-align: center;
-        padding-top: 0.5em;
-    }
 
-    .subscribe-txt {
-        padding-top: 10px;
-        border-bottom: 0;
-    }
-
-    #newsletter {
-        margin-left: 1em;
-        margin-bottom: 1em;
-        padding: 0;
-
-    }
-
-    #newsletter input {
-        margin-left: 1em;
-    }
-
-    .subscribe-txt {
-        padding-left: 1em;
-        border-bottom: 0;
-    }
-
-    .icon i {
-        padding-left: 0.1em;
-        padding-right: 0.1em;
-    }
-
-    .icon {
-        margin-left: auto;
-    }
 
     #modal-all input {
         margin-bottom: 0;
@@ -640,44 +577,6 @@ body {
 
     address {
         margin-bottom: 0;
-    }
-
-    #copyright p {
-        padding: 0;
-        padding-top: 1em;
-        margin-top: 0;
-        font-weight: 300;
-        text-align: center;
-    }
-
-    #newsletter {
-        margin: 0;
-    }
-
-    #newsletter input {
-        margin-left: 1em;
-    }
-
-    .newsletter-field {
-        margin-left: 0;
-    }
-
-    .subscribe-txt {
-        padding-left: 1em;
-        border-bottom: 0;
-    }
-
-    .icon i {
-        padding-left: 0.1em;
-        padding-right: 0.1em;
-    }
-
-    .icon {
-        margin-left: auto;
-    }
-
-    .newsletter-button {
-        padding-left: 0;
     }
 
     #modal-all input {
@@ -692,37 +591,8 @@ body {
         padding: 1em 2em;
     }
 
-    .social {
-        margin: 0;
-        padding: 0;
 
-    }
 
-    .subscribe-txt {
-        padding: 10px 0 0;
-        border-bottom: 0;
-    }
 }
 
-/*@media (max-width: 425px) {*/
 
-/*    .txt-header-title h1 {*/
-/*        padding: 1.5em 0 0 0.5em;*/
-/*        font-size: 1.6em;*/
-/*    }*/
-
-/*    .txt-header-title p {*/
-/*        font-size: 1em;*/
-/*        font-weight: 200;*/
-/*        padding-left: 1em;*/
-
-
-/*    }*/
-
-/*    .txt-header-title button {*/
-/*        margin-top: 0;*/
-/*        margin-bottom: 0.5em;*/
-/*    }*/
-
-
-/*}*/
