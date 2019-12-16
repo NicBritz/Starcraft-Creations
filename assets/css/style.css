@@ -1,4 +1,5 @@
-/* Fonts / General */
+/* Fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700");
 
 html {
@@ -8,15 +9,14 @@ html {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-color: rgb(200, 233, 255);
-  /*background-color: #eae9f2;*/
+  background-color: rgba(200, 233, 255, 0.58);
 }
 
 .row {
   margin: 0;
 }
 
-/* ################### Colors ###################  */
+/* ################### colors ###################  */
 
 .bg-light-blue {
   background-color: #0062a5;
@@ -34,22 +34,33 @@ body {
   color: #fff;
 }
 
-/* ################### Buttons ###################  */
+/* ################### buttons ###################  */
+
 .btn-danger {
   background-color: #fa4c33;
   border-color: #fa4c33;
-}
-
-.btn-danger:focus {
-  background-color: #be3f28;
 }
 
 .btn-danger:hover {
   background-color: #be3f28;
 }
 
-/* ################### Landing ###################  */
-/*navbar*/
+.btn-danger:focus {
+  background-color: #be3f28;
+}
+
+.btn-secondary{
+  background-color: #3c91be;
+}
+
+.btn-secondary:hover{
+  background-color: #006bb4;
+}
+
+/* ################### landing page ###################  */
+
+/* ======== navbar ======= */
+
 #home nav {
   position: absolute;
   top: 0;
@@ -59,19 +70,19 @@ body {
 }
 
 .navbar .navbar-collapse {
+  letter-spacing: 1px;
   text-align: center;
-}
-
-.navbar-dark .navbar-nav .nav-link i {
-  margin-right: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   padding: 10px 0 0;
-  color: rgba(255, 255, 255, 0.5);
   font-weight: 300;
   font-size: 1.1em;
   margin-right: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link i {
+  padding-right: 5px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -84,13 +95,14 @@ body {
   border-bottom: 4px solid #fa4c33;
 }
 
-/* Logo */
+/* ======== logo ======= */
+
 #logo {
-  padding-left: 80px;
-  padding-bottom: 5px;
+  padding: 0 0 5px 80px;
 }
 
-/*  Jumbotron  */
+/* ======== cover jumbotron ======= */
+
 .jumbotron {
   background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
   background-repeat: no-repeat;
@@ -103,40 +115,49 @@ body {
   margin: 0;
 }
 
-/* Header Title */
-.txt-header-title {
+/* ======== cover heading ======= */
+.cover-heading-text {
+  background-color: rgba(0, 98, 165, 0.6);
+}
+
+.cover-heading {
   background-color: rgba(0, 98, 165, 0.5);
   position: absolute;
   left: 0;
   bottom: 0;
 }
 
-.txt-header-title h1 {
+.cover-heading h1 {
   font-weight: 500;
   font-size: 3em;
   margin-top: 10px;
 }
 
-.txt-header-title p {
+.cover-heading p {
   font-size: 1.5em;
   font-weight: 200;
   padding-left: 50px;
 }
 
-.txt-header-title button {
+.cover-heading button {
   margin-bottom: 5px !important;
 }
 
-#heading-section {
-  background-color: rgba(0, 98, 165, 0.6);
-}
+/* ################### About section ################### */
 
-/* ################### About section ###################  */
 #about-container {
   padding: 1em;
 }
 
-#about-container .card {
+#about{
+  padding-top: 4em;
+}
+
+.about-card-container {
+  padding: 1em;
+}
+
+#about .card {
   margin-top: 1em;
   text-align: center;
   border: 3px solid #be3f28;
@@ -144,34 +165,42 @@ body {
   height: 100%;
 }
 
-#about-container .card-body h5 {
+.card-img-top {
+  padding: 0;
+  border-radius: 5px;
+}
+
+#about .card-body h5 {
   text-transform: uppercase;
   font-size: 2em;
   font-weight: 500;
 }
 
-#about-container .card-body p {
+#about .card-body p {
   margin-top: 1em;
   margin-bottom: 0;
   font-size: 1.1em;
   font-weight: 300;
 }
 
-.about-card {
-  padding: 1em;
-}
-
-.card-img-top {
-  padding: 0;
-  border-radius: 5px;
-}
-
-/* testimonials review section */
+/* ======== testimonials ======= */
 
 .testimonials .fa-quote-left {
   color: #fa4c33;
   font-size: 1.1em;
   padding: 5px;
+}
+
+.testimonial-text {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: 400;
+  padding: 1em 2em;
+}
+
+.testimonial-text h5 {
+  font-weight: 600;
+  font-size: 1.2em;
 }
 
 .testimonials .fa-star,
@@ -180,21 +209,10 @@ body {
   font-size: 1.5em;
 }
 
-.review-text {
-  margin-top: 1em;
-  font-size: 1.2em;
-  font-weight: 400;
-  padding: 1em 2em;
-}
+/* ################### Team ################### */
 
-.review-text h5 {
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-/* ################### Team ###################  */
 #team {
-  padding: 1em;
+  padding-top: 6em;
 }
 
 .team-member {
@@ -217,15 +235,26 @@ body {
 }
 
 .team-member h5 {
-  padding-top: 2.1em;
+  padding-top: 2.3em;
   font-size: 2em;
   font-weight: 700;
   color: #fa4c33;
 }
 
-/* ################### Services ###################  */
+.team-member p {
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+/* ################### Services ################### */
+
 #services {
   padding: 1em;
+}
+
+#services .container-fluid{
+  padding-top: 4em;
 }
 
 #services .product-card {
@@ -249,15 +278,8 @@ body {
   cursor: pointer;
 }
 
-.product-img {
+.product-img-container {
   padding: 0 2em 0 0;
-}
-
-.product-button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 5px;
 }
 
 #services .card h5 {
@@ -276,13 +298,22 @@ body {
   padding-right: 10px;
 }
 
-/* ################### Contact form ###################  */
+.product-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 5px;
+}
+
+/* ################### Contact form ################### */
+
 #contact {
-  padding: 1em;
+  padding: 1em 1em 4em;
 }
 
 #contact .container {
-  padding: 2em 0;
+  padding: 5em 0 2em;
+
 }
 
 #contact .card {
@@ -315,7 +346,7 @@ body {
   letter-spacing: 5px;
 }
 
-.contact-card {
+.contact-form-area {
   padding: 0;
 }
 
@@ -368,8 +399,10 @@ body {
   height: 100%;
 }
 
-/* ################### Modals ###################  */
-/*quote modal*/
+/* ################### Modals ################### */
+
+/* ======== quote modal ======= */
+
 #quote-modal-container {
   padding: 10px;
 }
@@ -400,7 +433,6 @@ body {
   border-bottom: 1px solid #00428d;
   border-radius: 5px;
   margin-bottom: 10px;
-  color: #fff;
 }
 
 #quote-modal-container input::placeholder {
@@ -449,7 +481,8 @@ body {
   border-top: 3px solid #fa4c33;
 }
 
-/*success modal*/
+/* ======== success modal ======= */
+
 #success-modal-container .modal-header {
   border-bottom: 3px solid #fa4c33;
   padding: 10px;
@@ -465,12 +498,6 @@ body {
 }
 
 /* ################### Footer ###################  */
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 .contact-info,
 .social {
@@ -494,15 +521,14 @@ body {
   list-style: none;
 }
 
+.social a:hover{
+  color: #fa4c33;
+}
 .social-icon {
-  font-size: 2em;
+  font-size: 2.2em;
   padding-left: 0.1em;
   padding-right: 0.1em;
   color: rgba(255, 255, 255, 0.7);
-}
-
-.social-icon i:hover {
-  color: #fa4c33;
 }
 
 .copyright {
@@ -513,26 +539,31 @@ body {
   padding: 1em 0;
 }
 
-/* ################### Media queries ###################  */
+/* ################### media queries ###################  */
+
+/* ======== less than 1440px ======= */
 
 @media (max-width: 1440px) {
-  .txt-header-title h1 {
+  .cover-heading h1 {
     padding: 2em 0 0 0.2em;
     font-size: 2em;
   }
 
-  .txt-header-title p {
+  .cover-heading p {
     font-size: 1.3em;
     font-weight: 200;
     padding-left: 05px;
   }
 
-  .txt-header-title button {
+  .cover-heading button {
     margin-bottom: 0;
   }
 }
 
+/* ======== less than 1024px ======= */
+
 @media (max-width: 1024px) {
+
   #logo {
     padding-left: 10px;
   }
@@ -541,33 +572,35 @@ body {
     margin-right: 20px;
   }
 
-  /*make cover work on ios*/
   .jumbotron {
     background-attachment: scroll;
   }
+
 }
+
+/* ======== less than 991px ======= */
 
 @media (max-width: 991px) {
   #logo {
     padding-left: 5px;
   }
 
-  .txt-header-title h1 {
+  .cover-heading h1 {
     padding: 2em 0 0 0.2em;
     font-size: 1.1em;
   }
 
-  .txt-header-title p {
+  .cover-heading p {
     font-size: 0.8em;
     font-weight: 200;
     padding-left: 05px;
   }
 
-  .txt-header-title button {
+  .cover-heading button {
     font-size: 0.6em;
   }
 
-  .product-img {
+  .product-img-container {
     padding: 0;
   }
 
