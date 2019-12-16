@@ -1,5 +1,4 @@
 /* Fonts / General */
-
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700");
 
 html {
@@ -9,9 +8,9 @@ html {
 
 body {
     font-family: "Source Sans Pro", sans-serif;
-    background-color: #eae9f2;
-    padding: 0;
-    margin: 0;
+    background-color: rgba(0, 143, 239, 0.3);
+    /*background-color: #eae9f2;*/
+
 }
 
 .row {
@@ -19,7 +18,7 @@ body {
 }
 
 
-/* colors */
+/* ################### Colors ###################  */
 
 .bg-light-blue {
     background-color: #0062a5;
@@ -27,10 +26,6 @@ body {
 
 .bg-dark-blue {
     background-color: #00428d;
-}
-
-.bg-green {
-    background-color: #0ba871;
 }
 
 .col-light-grey {
@@ -41,26 +36,21 @@ body {
     color: #fff;
 }
 
+/* ################### Buttons ###################  */
 .btn-danger {
     background-color: #fa4c33;
     border-color: #fa4c33;
 }
 
-
-/* / Jumbotron / */
-.jumbotron {
-    background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-    margin-bottom: 0;
-    z-index: 1;
+.btn-danger:focus {
+    background-color: #be3f28;
 }
 
+.btn-danger:hover {
+    background-color: #be3f28;
+}
 
+/* ################### Landing ###################  */
 /*navbar*/
 #home nav {
     position: absolute;
@@ -102,20 +92,31 @@ body {
     padding-bottom: 5px;
 }
 
+/*  Jumbotron  */
+.jumbotron {
+    background-image: url("https://res.cloudinary.com/dajuujhvs/image/upload/v1576353052/starcraft-creations/cover-2_r6f7jm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
 /* Header Title */
 .txt-header-title {
     background-color: rgba(0, 98, 165, 0.5);
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100vw;
-    padding: 0;
 }
 
 .txt-header-title h1 {
-    padding: 1.5em 0 0 1em;
     font-weight: 500;
     font-size: 3em;
+    margin-top: 10px;
 }
 
 .txt-header-title p {
@@ -124,30 +125,24 @@ body {
     padding-left: 50px;
 }
 
-.txt-header-title button:hover {
-    color: #fff;
-    background-color: #be3f28;
+.txt-header-title button {
+    margin-bottom: 5px!important;
 }
 
-#triangle {
-    width: 0;
-    height: 0;
-    border-bottom: 250px solid rgba(0, 98, 165, 0.6);
-    border-right: 100px solid transparent;
-
+#heading-section {
+    background-color: rgba(0, 98, 165, 0.6);
 }
 
-/* About */
-
-/*#about-container {*/
-/*    padding: 4em;*/
-/*}*/
+/* ################### About section ###################  */
+#about-container {
+    padding: 1em;
+}
 
 #about-container .card {
     margin-top: 1em;
     text-align: center;
-
-    border: 2px solid #be3f28;
+    border: 3px solid #be3f28;
+    border-radius: 5px;
     height: 100%;
 }
 
@@ -165,12 +160,12 @@ body {
 }
 
 .about-card {
-    padding: 2em;
+    padding: 1em;
 }
 
 .card-img-top {
-    padding: 5px;
-    border-radius: 10px;
+    padding: 0;
+    border-radius: 5px;
 }
 
 /* testimonials review section */
@@ -178,6 +173,7 @@ body {
 .testimonials .fa-quote-left {
     color: #fa4c33;
     font-size: 1.1em;
+    padding: 5px;
 }
 
 .testimonials .fa-star,
@@ -189,16 +185,18 @@ body {
 .review-text {
     margin-top: 1em;
     font-size: 1.2em;
-    font-weight: 300;
-    padding: 20px;
+    font-weight: 400;
+    padding: 1em 2em;
 }
 
-/*Team*/
+.review-text h5 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
 
-#team-container {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 1em;
+/* ################### Team ###################  */
+#team {
+    padding: 1em;
 }
 
 .team-member {
@@ -207,7 +205,8 @@ body {
     background-color: #0062a5;
     border-radius: 50%;
     border: 3px solid #fa4c33;
-    margin-top: 100px;
+    margin: 0 auto 100px;
+
 }
 
 .team-member img {
@@ -256,7 +255,7 @@ body {
 
 .product-img {
     padding: 0 2em 0 0;
-    z-index: 2;
+
 }
 
 .product-button {
@@ -281,8 +280,6 @@ body {
     padding-top: 1.2em;
     padding-right: 10px;
 }
-
-
 
 /* ################### Contact form ###################  */
 #contact {
@@ -463,10 +460,12 @@ body {
     border-bottom: 3px solid #fa4c33;
     padding: 10px;
 }
-#success-modal-container .modal-header h5{
-   font-size: 2em;
+
+#success-modal-container .modal-header h5 {
+    font-size: 2em;
 }
-#success-modal-container .modal-footer{
+
+#success-modal-container .modal-footer {
     border-top: 3px solid #fa4c33;
     padding: 10px;
 }
@@ -521,64 +520,58 @@ body {
 
 /* ################### Media queries ###################  */
 
-/*@media (max-width: 1440px) {*/
-/*    .txt-header-title h1 {*/
-/*        padding: 2em 0 0 0.2em;*/
-/*        font-size: 2em;*/
-/*    }*/
+@media (max-width: 1440px) {
+    .txt-header-title h1 {
+        padding: 2em 0 0 0.2em;
+        font-size: 2em;
+    }
 
-/*    .txt-header-title p {*/
-/*        font-size: 1.3em;*/
-/*        font-weight: 200;*/
-/*        padding-left: 05px;*/
-/*    }*/
+    .txt-header-title p {
+        font-size: 1.3em;
+        font-weight: 200;
+        padding-left: 05px;
+    }
 
-/*    .txt-header-title button {*/
-/*        margin-bottom: 0;*/
-/*    }*/
-/*}*/
+    .txt-header-title button {
+        margin-bottom: 0;
+    }
+}
 
-/*@media (max-width: 1024px) {*/
-/*    #logo {*/
-/*        padding-left: 10px;*/
-/*    }*/
+@media (max-width: 1024px) {
+    #logo {
+        padding-left: 10px;
+    }
 
-/*    .navbar-dark .navbar-nav .nav-link {*/
-/*        margin-right: 20px;*/
-/*    }*/
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 20px;
+    }
 
-/*    .jumbotron {*/
-/*        background-attachment: scroll;*/
-/*    }*/
-/*}*/
+    .jumbotron {
+        background-attachment: scroll;
+    }
+}
 
 
 @media (max-width: 991px) {
-    /*#logo {*/
-    /*    padding-left: 5px;*/
-    /*}*/
-    /*.txt-header-title h1 {*/
-    /*    padding: 2em 0 0 0.2em;*/
-    /*    font-size: 1.5em;*/
-    /*}*/
-    /*.txt-header-title p {*/
-    /*    font-size: 1em;*/
-    /*    font-weight: 200;*/
-    /*    padding-left: 05px;*/
-    /*}*/
-    /*.txt-header-title button {*/
-    /*    margin-bottom: 0;*/
-    /*}*/
-    /*#about-container .card-body h5 {*/
-    /*    font-size: 1.5em;*/
-    /*}*/
-    /*#about-container .card-body p {*/
-    /*    font-size: 1em;*/
-    /*    font-weight: 200;*/
-    /*}*/
-    /*.review-text {*/
-    /*    padding: 3em 2em;*/
-    /*}*/
+    #logo {
+        padding-left: 5px;
+    }
+
+    .txt-header-title h1 {
+        padding: 2em 0 0 0.2em;
+        font-size: 1.1em;
+    }
+
+    .txt-header-title p {
+        font-size: 0.8em;
+        font-weight: 200;
+        padding-left: 05px;
+    }
+
+    .txt-header-title button {
+        font-size: 0.6em;
+    }
+
     /* ############### services ################*/
     .product-img {
         padding: 0;
@@ -599,15 +592,6 @@ body {
         padding: 1em 0 0;
         height: 300px;
     }
-
-
-    /*#modal-all input {*/
-    /*    margin-bottom: 0;*/
-    /*}*/
-    /*.review-text {*/
-    /*    padding: 1em 2em;*/
-    /*}*/
-
 
 }
 
