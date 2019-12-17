@@ -132,6 +132,7 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 0;
 }
 
 .cover-heading h1 {
@@ -153,21 +154,20 @@ body {
 /* ################### About section ################### */
 
 #about-container {
-    padding: 1em;
+    padding: 0 1em;
 }
 
 #about {
-    padding-top: 4em;
+    padding-top: 5em;
 }
 
 #about h2 {
-    margin: 1em 0;
+    margin: 2em 0 0;
     text-transform: uppercase;
     text-align: center;
-    font-size: 3em;
-    padding-bottom: 1em;
-    font-weight: 600;
-    padding-top: 2px;
+    font-size: 2em;
+    padding-bottom: 2em;
+    font-weight: 700;
 }
 
 #about h2 span {
@@ -217,92 +217,6 @@ body {
     font-weight: 300;
 }
 
-/* ======== testimonials ======= */
-
-.testimonials {
-    text-align: center;
-}
-
-.testimonials .fa-quote-left {
-    color: #fa4c33;
-    font-size: 1.1em;
-    padding: 5px;
-}
-
-.testimonial-text {
-    margin-top: 1em;
-    font-size: 1.2em;
-    font-weight: 400;
-    padding: 1em 2em;
-}
-
-.testimonial-text h5 {
-    font-weight: 600;
-    font-size: 1.2em;
-}
-
-.testimonials .fa-star,
-.fa-star-half-alt {
-    color: #fa4c33;
-    font-size: 1.5em;
-}
-
-/* ################### Team ################### */
-
-#team {
-    padding-top: 4em;
-}
-
-#team h2 {
-    margin: 1em 0;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 3em;
-    font-weight: 600;
-}
-
-#team h2 span {
-    color: #fa4c33;
-    border: 5px solid #fa4c33;
-
-}
-
-.team-member {
-    width: 250px;
-    height: 250px;
-    background-color: #0062a5;
-    border-radius: 50%;
-    border: 5px solid #fa4c33;
-    margin: 0 auto 100px;
-}
-
-.team-member img {
-    padding-top: 10px;
-    width: 180px;
-    height: 180px;
-    transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-}
-
-.team-member img:hover {
-    cursor: pointer;
-}
-
-.team-member h5 {
-    padding-top: 2.3em;
-    font-size: 2em;
-    font-weight: 700;
-    color: #fa4c33;
-}
-
-.team-member p {
-    font-weight: 600;
-    font-size: 1em;
-    text-transform: uppercase;
-}
-
 /* ################### Services ################### */
 
 #services {
@@ -310,7 +224,23 @@ body {
 }
 
 #services .container-fluid {
-    padding-top: 4em;
+    padding-top: 4.1em;
+}
+
+#services h2 {
+    margin: 2em 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+#services h2 span {
+    color: #fa4c33;
+    border: 5px solid #fa4c33;
+    padding: 2px;
 }
 
 #services .product-card {
@@ -367,7 +297,93 @@ body {
     right: 0;
     bottom: 0;
     margin: 5px;
+}
 
+/* ======== testimonials ======= */
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonials .fa-quote-left {
+    color: #fa4c33;
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+.testimonial-text {
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 1em 2em;
+}
+
+.testimonial-text h5 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.testimonials .fa-star,
+.fa-star-half-alt {
+    color: #fa4c33;
+    font-size: 1.5em;
+}
+
+/* ################### Team ################### */
+
+#team {
+    padding-top: 4em;
+}
+
+#team h2 {
+    margin: 1em 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+#team h2 span {
+    color: #fa4c33;
+    border: 5px solid #fa4c33;
+
+}
+
+.team-member {
+    width: 250px;
+    height: 250px;
+    background-color: #0062a5;
+    border-radius: 50%;
+    border: 5px solid #fa4c33;
+    margin: 0 auto 100px;
+}
+
+.team-member img {
+    padding-top: 10px;
+    width: 180px;
+    height: 180px;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+.team-member img:hover {
+    cursor: pointer;
+}
+
+.team-member h5 {
+    padding-top: 2.3em;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #fa4c33;
+}
+
+.team-member p {
+    font-weight: 600;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
 /* ################### Contact form ################### */
@@ -377,8 +393,23 @@ body {
 }
 
 #contact .container {
-    padding: 5em 0 2em;
+    padding: 3em 0 2em;
+}
 
+#contact h2 {
+    margin: 1em 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-weight: 700;
+
+}
+
+#contact h2 span {
+    color: #fa4c33;
+    border: 5px solid #fa4c33;
+    padding: 2px;
 }
 
 #contact .card {

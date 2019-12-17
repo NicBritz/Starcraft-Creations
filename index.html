@@ -54,14 +54,14 @@
                             <i class="fas fa-info-circle "></i>About</a>
                     </li>
 
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#team">
-                            <i class="fas fa-users"></i>Team</a>
-                    </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="#services">
                             <i class="fas fa-cog "></i>Services</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#team">
+                            <i class="fas fa-users"></i>Team</a>
                     </li>
 
                     <li class="nav-item ">
@@ -100,16 +100,14 @@
 </header>
 
 <!-- ################### about section ###################  -->
+
 <section id="about-container">
-    <div class="container-fluid" id="about">
-        <div class="row">
+    <div id="about">
+        <!-- ###### about cards ###### -->
+        <div class="row justify-content-center">
             <div class="col-12">
                 <h2><span>About</span> us</h2>
             </div>
-        </div>
-        <!-- ###### about cards ###### -->
-        <div class="row justify-content-center">
-
             <div class="col-lg-4 col-md-5 about-card-container">
                 <div class="card shadow-lg bg-light-blue col-white">
                     <img src="https://res.cloudinary.com/dajuujhvs/image/upload/v1576353051/starcraft-creations/about-1_eozzps.jpg"
@@ -144,103 +142,14 @@
     </div>
 </section>
 
-<!-- ################### Team ###################  -->
-<section id="team-container">
-    <div class="container-fluid" id="team">
-        <div class="row">
-            <div class="col-12">
-                <h2><span>Meet</span> the team</h2>
-            </div>
-        </div>
-        <!-- ###### team divs ###### -->
-        <div class="row text-center">
-            <!-- 1 -->
-            <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-1.png"
-                         alt="female cartoon face placeholder image"/>
-                    <h5>Jessica Rabbit</h5>
-                    <p>Managing Director</p>
-                </div>
-            </div>
-
-            <!-- 2 -->
-            <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-2.png"
-                         alt="male cartoon face placeholder"/>
-                    <h5>Sponge Bob</h5>
-                    <p>Technical Director</p>
-                </div>
-            </div>
-
-            <!--  3 -->
-            <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-3.png"
-                         alt="female cartoon face placeholder"/>
-                    <h5>Minnie Mouse</h5>
-                    <p>Operations manager</p>
-                </div>
-            </div>
-
-            <!-- 4 -->
-            <div class="col-md-6 col-lg-4 col-xl-3">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-4.png"
-                         alt="male cartoon face placeholder"/>
-                    <h5>Scooby Doo</h5>
-                    <p>Warehouse Manager</p>
-                </div>
-            </div>
-
-            <!-- 5 -->
-            <div class="col-md-6 col-lg-4 col-xl-4">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-5.png"
-                         alt="female cartoon face placeholder"/>
-                    <h5>Olive Oyl</h5>
-                    <p>HR Manager</p>
-                </div>
-            </div>
-
-            <!-- 6 -->
-            <div class="col-md-6 col-lg-4 col-xl-4">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-6.png"
-                         alt="male cartoon face placeholder"/>
-                    <h5>Fred Flintstone</h5>
-                    <p>Sales Manager</p>
-                </div>
-            </div>
-
-            <!-- 7 -->
-            <div class="col-md-12 col-lg-12 col-xl-4">
-                <div class="team-member">
-                    <img class="grow-up"
-                         src="assets/images/team-7.png"
-                         alt="female cartoon face placeholder"/>
-                    <h5>Betty Boop</h5>
-                    <p>Accounts Manager</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
 <!-- ################### Services ###################  -->
 <section id="services">
     <div class="container-fluid">
         <!-- ###### service cards ###### -->
         <div class="row justify-content-center">
+            <div class="col-12">
+                <h2><span>what</span> we do</h2>
+            </div>
             <!-- 1 -->
             <div class="col-md-10 col-lg-9 product-card">
                 <div class="card">
@@ -431,6 +340,11 @@
             </div>
         </div>
         <br/><br>
+        <div class="row spacer">
+            <div class="col-12">
+                <h2><span>What</span> people say</h2>
+            </div>
+        </div>
         <!-- ###### testimonials ###### -->
         <div class="row justify-content-center testimonials">
             <!-- 1 -->
@@ -486,9 +400,107 @@
     </div>
 </section>
 
+<!-- ################### Team ###################  -->
+<section id="team-container">
+    <div class="container-fluid" id="team">
+        <div class="row spacer">
+            <div class="col-12">
+                <h2><span>Meet</span> the team</h2>
+            </div>
+        </div>
+        <!-- ###### team divs ###### -->
+        <div class="row text-center">
+            <!-- 1 -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-1.png"
+                         alt="female cartoon face placeholder image"/>
+                    <h5>Jessica Rabbit</h5>
+                    <p>Managing Director</p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-2.png"
+                         alt="male cartoon face placeholder"/>
+                    <h5>Sponge Bob</h5>
+                    <p>Technical Director</p>
+                </div>
+            </div>
+
+            <!--  3 -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-3.png"
+                         alt="female cartoon face placeholder"/>
+                    <h5>Minnie Mouse</h5>
+                    <p>Operations manager</p>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-4.png"
+                         alt="male cartoon face placeholder"/>
+                    <h5>Scooby Doo</h5>
+                    <p>Warehouse Manager</p>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-5.png"
+                         alt="female cartoon face placeholder"/>
+                    <h5>Olive Oyl</h5>
+                    <p>HR Manager</p>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-6.png"
+                         alt="male cartoon face placeholder"/>
+                    <h5>Fred Flintstone</h5>
+                    <p>Sales Manager</p>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="col-md-12 col-lg-12 col-xl-4">
+                <div class="team-member">
+                    <img class="grow-up"
+                         src="assets/images/team-7.png"
+                         alt="female cartoon face placeholder"/>
+                    <h5>Betty Boop</h5>
+                    <p>Accounts Manager</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
 <!-- ################### Contact form ###################  -->
 <section id="contact">
     <div class="container">
+        <div class="row spacer">
+            <div class="col-12">
+                <h2><span>find</span> us</h2>
+            </div>
+        </div>
         <div class="card bg-light-blue">
             <div class="row col-white">
                 <!-- ###### headings ###### -->
