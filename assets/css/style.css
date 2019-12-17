@@ -1,13 +1,6 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
-
 /* Fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700");
-
-html {
-    /* currently not fully supported in all browsers */
-    scroll-behavior: smooth;
-}
 
 body {
     font-family: "Source Sans Pro", sans-serif;
