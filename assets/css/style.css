@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 /* Fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700");
@@ -60,6 +62,8 @@ body {
 }
 
 .grow-up:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -162,7 +166,8 @@ body {
 #about {
     padding-top: 4em;
 }
-#about h2{
+
+#about h2 {
     margin: 1em 0;
     text-transform: uppercase;
     text-align: center;
@@ -172,8 +177,8 @@ body {
     padding-top: 2px;
 }
 
-#about h2 span{
-    color:#fa4c33;
+#about h2 span {
+    color: #fa4c33;
     border: 5px solid #fa4c33;
     padding: 2px;
 }
@@ -199,6 +204,8 @@ body {
 }
 
 .card-img-top:hover {
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
     transform: scale(1.04);
     cursor: pointer;
 }
@@ -252,7 +259,8 @@ body {
 #team {
     padding-top: 4em;
 }
-#team h2{
+
+#team h2 {
     margin: 1em 0;
     text-transform: uppercase;
     text-align: center;
@@ -260,8 +268,8 @@ body {
     font-weight: 600;
 }
 
-#team h2 span{
-    color:#fa4c33;
+#team h2 span {
+    color: #fa4c33;
     border: 5px solid #fa4c33;
 
 }
@@ -341,7 +349,7 @@ body {
     padding: 0 2em 0 0;
 }
 
-.card-block{
+.card-block {
     padding-right: 0;
 }
 
@@ -432,6 +440,22 @@ body {
     background-color: #00428d;
 }
 
+#contact-form input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 #contact-form input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -446,6 +470,22 @@ body {
 
 #contact-form textarea:focus {
     background-color: #00428d;
+}
+
+#contact-form textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-form textarea::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #contact-form textarea::placeholder {
@@ -504,6 +544,22 @@ body {
     margin-bottom: 10px;
 }
 
+#quote-modal-container input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 #quote-modal-container input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -511,6 +567,22 @@ body {
 #quote-modal-container input:focus {
     background-color: #00428d;
     border-color: #00428d;
+}
+
+#quote-modal-container textarea::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container textarea::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container textarea:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#quote-modal-container textarea::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #quote-modal-container textarea::placeholder {
