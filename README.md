@@ -244,31 +244,31 @@ Throughout the process i would regularly test with these two tools to try to cat
 
 I tested the following features on multiple PC browsers (Chrome, Firefox, Edge) and Mobile devices (IOS, Android) and this is what I found:
 
-###Navigation Bar
+### Navigation Bar
 It quickly became apparent that on the smaller devices i needed to collapse the menu and shit the logo up to abominate the smaller sizes. so i found i needed to implement media queries at this stage to have more control of this.
 When the menu was expanded i also saw it looked odd on the smaller devices so I decided to center the menu in the end. i lso was using a css scroll function and i realised it was not compatible in most browsers so I opted a JS solution in the end.
 
-###Landing Image
+### Landing Image
 This gave me loads of trouble on the ios devices as it simply would not render the image on the physical device, 
 after many hours of trial and error and finally finding a stack overflow thread i realised that this was because of the image 
 being fixed so i fixed this with a media query (Thanks stack overflow!) 
 [Thread](https://stackoverflow.com/questions/36686654/fixed-background-images-disappear-on-iphone-ipad)
 
-###Header text
+### Header text
 Seeing this on a physical device was helpful and i realised it was way too big when the device was turned that meant more media query work.
 
-###About us 
+### About us 
 After seeing this on a small device i realised there was not enough definition to the headers in the cards so i added an interline and made the text uppercase.
 
-###Services
+### Services
 This section was redone multiple times as i had run in to many little bugs when testing the buttons kept covering the text on the smaller screens. When the modal would pop up after clicking the button it would add a strange padding to the background.
 I spent alot of time bug fixing and testing this on multiple screensize's as its the main reason for this type of site.
 
-###Testimonials
+### Testimonials
 I originally had the testimonials in a horizontal line, that seemed of unti i changed the screen sizes and they lookes aff due to the 
 different length of text each one had. the solution in the end was to put them in a single versicle line. this made it look much better.
 
-###User testing
+### User testing
 I believe this was the most important tests of all, i had some friends and family test the site and the feedback was invaluable. I think when you have been staring at the same site for weeks its hard to see the little errors. they discovered Typos and grammar mistakes. 
 One also suggested that I add the success modal to the submit button on the quote form as it felt like you were left hanging. hey spotted small spacing issues also. At that stage a few commented on the Logo being too pixelated on their devices so I remade the logo at a higher resolution.
 
