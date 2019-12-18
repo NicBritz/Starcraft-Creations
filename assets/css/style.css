@@ -30,7 +30,6 @@ body {
     color: #fff;
 }
 
-
 /* ################### buttons ###################  */
 
 .btn-danger {
@@ -54,6 +53,7 @@ body {
     background-color: #006bb4;
 }
 
+/* ################### general ###################  */
 .grow-up:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -62,6 +62,11 @@ body {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
+}
+
+.divider{
+text-align: center;
+    padding-top: 5em;
 }
 
 /* ################### landing page ###################  */
@@ -227,7 +232,7 @@ body {
 }
 
 #services .container-fluid {
-    padding-top: 4.1em;
+    padding-top: 1em;
 }
 
 #services h2 {
@@ -304,6 +309,7 @@ body {
 /* ======== testimonials ======= */
 
 .testimonials {
+    padding-top: 1em;
     text-align: center;
 }
 
