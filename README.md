@@ -145,6 +145,11 @@ These are my wireframes I created during the design process, they were great as 
 ## Features
 
 <!-- Top -->
+**General**
+
+I used a color pallet generated form the large image on the landing page using https://color.adobe.com/create and this font https://fonts.google.com/specimen/Source+Sans+Pro from google fonts.
+This gave my website a clear text and a color scheme that looked good with the content.
+
 **Logo**
 
 I have taken care to ensure that the logo is as responsive as possible, keeping the spacing and size looking neat in as many screen sizes as possible. 

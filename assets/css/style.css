@@ -1,7 +1,8 @@
-/* Fonts */
+/* Fonts form google fonts https://fonts.google.com/ */
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700&display=swap");
 
+/* ################### Global ###################  */
 body {
     font-family: "Source Sans Pro", sans-serif;
     background-color: rgba(200, 233, 255, 0.58);
@@ -11,6 +12,23 @@ body {
 .row {
     margin: 0;
 }
+
+/* ################### general ###################  */
+.grow-up:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+.divider{
+text-align: center;
+    padding-top: 5em;
+}
+
 
 /* ################### colors ###################  */
 
@@ -51,22 +69,6 @@ body {
 
 .btn-secondary:hover {
     background-color: #006bb4;
-}
-
-/* ################### general ###################  */
-.grow-up:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-}
-
-.divider{
-text-align: center;
-    padding-top: 5em;
 }
 
 /* ################### landing page ###################  */
