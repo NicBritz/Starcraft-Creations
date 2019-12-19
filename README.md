@@ -17,7 +17,6 @@
 - [Deployment](#Deployment)
 - [Credits](#Credits)
   - [Content](#Content)
-  - [Media](#Media)
   - [Acknowledgements](#Acknowledgements)
 
 <!-- overview -->
@@ -54,7 +53,7 @@ That is why I have created this site as clean and responsive as possible, the ov
 
 ##### Professional Customer
 
-- As a professional engineering company would typically know exactly what they need I wanted it to be fast to get to the quoting stage. I also needed to make the quoting form ask for as little information as possible but still get everyting needed to get a quote out. Keeping the landing page clean portrays a neat company and the catchphrase 'Parts printed in as little as 1 working day!' helps to show that the company is fast and efficient.
+- As a professional engineering company would typically know exactly what they need I wanted it to be fast to get to the quoting stage. I also needed to make the quoting form ask for as little information as possible but still get everything needed to get a quote out. Keeping the landing page clean portrays a neat company and the catchphrase 'Parts printed in as little as 1 working day!' helps to show that the company is fast and efficient.
 
 ##### Starcraft Creations
 
@@ -149,7 +148,7 @@ These are my wireframes I created during the design process, they were great as 
 **Logo**
 
 I have taken care to ensure that the logo is as responsive as possible, keeping the spacing and size looking neat in as many screen sizes as possible. 
-I also made sure to use the orange in the logo throughout the website as this is the company's brand color.
+I also made sure to use the orange in the logo throughout the website as this is the company's brand colour.
 
 **Navigation Bar**
 
@@ -159,11 +158,11 @@ I have also made it so that the active menu item is underlined to help indicate 
 **Landing Page**
 
 I have a clean image that immediately conveys what that the company does on the landing page. 
-I also included some text to reiterate the service the company offers. From the landing page I also made it so that you can request a quote without having to navigate anywhere else.
+I also included some text to reiterate the service the company offers. From the landing page, I also made it so that you can request a quote without having to navigate anywhere else.
   
 **About section**
 
-When I created the 'About Us' section, I made use of Bootstrap's card component. This helped to structure the content neatly and in an organized way. I tried to keep this as simple and informative as possible with some visual styling to that is is aesthetically pleasing.
+When I created the 'About Us' section, I made use of Bootstrap's card component. This helped to structure the content neatly and in an organized way. I tried to keep this as simple and informative as possible with some visual styling to that is aesthetically pleasing.
 
 **Services Section**
 
@@ -187,7 +186,7 @@ The footer gives you a link to instantly create an email to the company and it w
 
 **modals**
 
-There is a quote modal that is set for you to create a request for a quote, this has a modal linked that will display that your request is successful so that you are able to see that something has happened once you hit the submit button. There are dropdown lists and required fields here to make sure the user inputs valid information. 
+There is a quote modal that is built for you to create a request for a quote, this has another modal linked that will display that your request is successful, that way you can see that something has happened once you hit the submit button. There are dropdown lists and required fields here to make sure the user inputs valid information. 
 
 ### Features left to implement
 
@@ -216,17 +215,17 @@ I used the following technologies to create this website:
 
 ### Tools for the job
 
-Below is a list of tools i used to create this website.
+Below is a list of tools I used to create this website.
 
 - [Pycharm](https://www.jetbrains.com/pycharm/) - This is the IDE I used to start building the website.
 - [Gimp](https://www.gimp.org/) - A free image editor I used to create and edit come of the site content.
 - [Balsamq](https://balsamiq.com/) - All my wireframes were created in the desktop version of Balsamiq.
 - [VS Code](https://code.visualstudio.com/) - Used this editor for building parts of the website.
 - [Git Hub](https://github.com/) - Used this site to manage my projects storage as well as host the website.
-- [Grammarly](https://www.grammarly.com/) Used to double check all my spelling and grammar.
+- [Grammarly](https://www.grammarly.com/) Used to double-check all my spelling and grammar.
 - [W3C Markup](https://validator.w3.org/) - used this to check my HTML for errors and typos.
 - [W3C CSS](https://jigsaw.w3.org/css-validator/) - used this to check my CSS for errors.
-- [Autoprefixer](https://autoprefixer.github.io/) - I used this tool to make sure i did not miss any prefixing in my code.
+- [Autoprefixer](https://autoprefixer.github.io/) - I used this tool to make sure I did not miss any prefixing in my code.
 
   <!-- Top -->
 
@@ -240,18 +239,15 @@ Below is a list of tools i used to create this website.
 
 ## Testing
 
-
-## Testing
-
 I tested my code using [W3C Markup](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) as a start to pick up any small errors in the code here I discovered that I had left out the alt test for some of my images as well as some stray div tags. 
 Throughout the process, I would regularly test with these two tools to try to catch things early.
 
 I tested the following features on multiple PC browsers (Chrome, Firefox, Edge) and Mobile devices (IOS, Android) and this is what I found:
 
 ### Navigation Bar
-1. Test that this is responsive and colapses in the smaller screen sizes.
-2. Test that the spacing between the menu items resizes on diffrent screen sizes and that the logo does not overlap the menu items.
-3. Test that the scroll to function is workning on multiple devices and in multiple browsers.
+1. Test that this is responsive and collapses in the smaller screen sizes.
+2. Test that the spacing between the menu items resizes on different screen sizes and that the logo does not overlap the menu items.
+3. Test that the scroll to function is working on multiple devices and in multiple browsers.
 
 It quickly became apparent that on the smaller devices I needed to collapse the menu and shit the logo up to abominate the smaller sizes. so I found I needed to implement media queries at this stage to have more control of this.
 When the menu was expanded I also saw it looked odd on the smaller devices so I decided to centre the menu in the end. I was using a CSS scroll function and I realised it was not compatible in most browsers so I opted for a JavaScript solution in the end.
@@ -266,20 +262,32 @@ after many hours of trial and error and finally found a stack overflow thread I 
 being fixed so I fixed this with a media query (Thanks stack overflow!) 
 [Thread](https://stackoverflow.com/questions/36686654/fixed-background-images-disappear-on-iphone-ipad)
 
-
-
-### Header text
-Seeing this on a physical device was helpful and I realised it was way too big when the device was turned that meant more media query work.
-
 ### About us 
-After seeing this on a small device I realised there was not enough definition to the headers in the cards so I added an interline and made the text uppercase.
+1. Test that the link to the page is working as expected.
+2. Test that the cards do not get too small switching between the different screen sizes.
+3. Test that there is a clear definition between the heading text and the content of the cards.
+
+After seeing this on a small device I realised there was not enough definition to the headings in the cards so I added underline and made the text uppercase.
 
 ### Services
-This section was redone multiple times as I had run into many little bugs when testing the buttons kept covering the text on the smaller screens. When the modal would pop up after clicking the button it would add strange padding to the background.
+1. Test that the link to the page is working as expected.
+2. Test that the cards do not get too small switching between the different screen sizes.
+3. Test that the buttons on each card works correctly and opens the modal as expected. 
+
+This section was re-done multiple times as I had run into many little bugs when testing the buttons kept covering the text on the smaller screens. When the modal would pop up after clicking the button it would add strange padding to the background.
 I spent a lot of time bug fixing and testing this on multiple screen sizes as its the main reason for this type of site.
 
 ### Testimonials
+1. Test that the text is legible.
+2. Test that the rating stars are responsive and remain a good distance from the testimonial text.
+
 I originally had the testimonials in a horizontal line, after I changed the screen sizes and they looked off due to the different length of the text each one had. the solution, in the end, was to put them in a single verticle line. This made it look much better.
+
+##Forms
+1. Test the link to the contact form 
+2. Test the quote button correctly opens the quote modal.
+3. Test all the fields and dropdown menus
+4. Test the submit button is working correctly.
 
 ### User testing
 I believe this was the most important tests of all, I had some friends and family test the site and the feedback was invaluable. I think when you have been staring at the same site for weeks it is hard to see the little errors. 
@@ -298,17 +306,21 @@ One also suggested that I add the success modal to the submit button on the quot
 
 ## Deployment
 
-This site makes use of GitHub's technology for deployment. I have used GitHub pages to serve the site. The deplyed version can be found here: https://frozenaught.github.io/Starcraft-Creations/, this relies on the [`index.html`](\index.html) file to make it work.
+This site makes use of GitHub's technology for deployment. I have used GitHub pages to serve the site. The deployed version can be found here: https://frozenaught.github.io/Starcraft-Creations/, this relies on the [`index.html`](\index.html) file to make it work.
+There is also a folder called `assets` that has sub-folders for the `CSS` and `images` that the website needs to work correctly.
 
-For development I created a repository https://github.com/Frozenaught/Starcraft-Creations.
+For development, I created a repository https://github.com/Frozenaught/Starcraft-Creations.
+
+If you want to run it locally you can follow the following steps:
 
 - Use `git clone https://github.com/Frozenaught/Starcraft-Creations` to pull a copy of the repo to your computer.
-- I would always recommend doing a git pull before starting any work on the project, this just insures you are working on the latest version.
+- I would always recommend doing a git pull before starting any work on the project, this just ensures you are working on the latest version.
 - Make any changes you need and commit using the command `git commit -m "your message` after staging the content with the command `git add "name of file"` of `git add .` for staging all files.
 - You can push this to the remote using `git push`
-- If there is anything you would not like to include in your commit i have made a [`.gitignore`](.gitignore) file, simply add the path to the file or folder and is will nolonger show up if you run `git status`.
+
+- If there is anything you would not like to include in your commit I have made a [`.gitignore`](.gitignore) file, simply add the path to the file or folder and it will no longer show up if you run `git status`.
 - I suggest regular commits as this will avoid big issues that are hard to reverse.
-- You could also make use of a separate branch if you decide you want to experiment with things or dont want to work directly on the master branch. to do this use the `git checkout -b "branch name"` command.
+- You could also make use of a separate branch if you decide you want to experiment with things or don't want to work directly on the master branch. to do this use the `git checkout -b "branch name"` command.
 - You could then switch back to the master branch using `git checkout master`
 
  <!-- Top -->
@@ -327,27 +339,29 @@ For development I created a repository https://github.com/Frozenaught/Starcraft-
 ### Content
 
 All content for this project is from the following sources.
-### Media
+
 - Images
   - [Cloudinary](https://cloudinary.com/) - I used this service to host some of my larger images as a CDN to make the site run faster.
-  - [Pixabay](https://pixabay.com/) - This site is packed full of royalty free images both free and payed.
+  - [Pixabay](https://pixabay.com/) - This site is packed full of royalty-free images both free and paid.
 - Text
   - [Simplfy3D](https://www.simplify3d.com/support/materials-guide/) - some of the more descriptive text was borrowed from this website.
   - Most of the test I made up.
 - Code helpers
   - [Smooth Scroll](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2) - I used this code snippet to help with my smooth scrolling.
-- Colors
-    - [Adobe Color](https://color.adobe.com/create) - I used this tool to help with creating a color scheme for the site.
+- Colours
+    - [Adobe Color](https://color.adobe.com/create) - I used this tool to help with creating a colour scheme for the site.
 - Logo
-    - [Free Logo Design](https://www.freelogodesign.org/) - I used this to create the first version of the logo but i have since had to make my own higher resolution version.
-     
+    - [Free Logo Design](https://www.freelogodesign.org/) - I used this to create the first version of the logo but I have since had to make a higher resolution version.
+    
 ### Acknowledgements
 **Notable sites**
-i used these sites for reference along the development process.
+I used these sites for reference along the development process.
 
-- [CSS Tricks](https://css-tricks.com/) - For CSS documentation
-- [Can I Use](https://caniuse.com/) - For CSS decision making
-- [Google Maps](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) - for map integration
+- [Bootstrap Documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - For Bootstrap documentation.
+- [CSS Tricks](https://css-tricks.com/) - For CSS documentation.
+- [Can I Use](https://caniuse.com/) - For CSS decision making.
+- [Google Maps](https://developers.google.com/maps/documentation/javascript/adding-a-google-map) - For google map integration.
+- [Stack Overflow](https://stackoverflow.com/) - For those times when I cold not figure out why i was not getting the result i expected.
 
 
 #### Gary Simons
@@ -357,12 +371,12 @@ here you can find links to his [website](https://garysimons.github.io/One-Milest
 
 #### Haley Schafer
 
-As Haley so kindly provided an example of a grade five project, I used her Portfolio project to help guid me.
+As Haley so kindly provided an example of a grade five project, I used her Portfolio project to help guide me.
 Here you can find links to her [website](https://code-institute-solutions.github.io/StudentExampleProjectGradeFive/) and [Github](https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive)
 
 #### Lix Pen
 
-I really like the look and feel of the [Lix Pen website](https://lixpen.com/) and it helped to give me some inspiration during the design and implementation process.
+I like the look and feel of the [Lix Pen website](https://lixpen.com/) and it helped to give me some inspiration during the design and implementation process.
 
 #### Protolabs
 
