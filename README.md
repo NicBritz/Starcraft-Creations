@@ -288,7 +288,7 @@ I spent a lot of time bug fixing and testing this on multiple screen sizes as it
 
 I originally had the testimonials in a horizontal line, after I changed the screen sizes and they looked off due to the different length of the text each one had. the solution, in the end, was to put them in a single verticle line. This made it look much better.
 
-##Forms
+## Forms
 1. Test the link to the contact form 
 2. Test the quote button correctly opens the quote modal.
 3. Test all the fields and dropdown menus
