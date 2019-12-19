@@ -362,7 +362,6 @@
     </div>
 </div>
 
-
 <section>
     <!-- ###### testimonials ###### -->
     <div class="row justify-content-center testimonials">
@@ -418,7 +417,6 @@
 
     </div>
 </section>
-
 
 <!-- ###### divider ###### -->
 <div class="row divider">
@@ -555,32 +553,39 @@
                             <div class="col-lg-6">
                                 <input type="text"
                                        aria-label="Contact Form First Name"
+                                       name="First Name"
                                        placeholder="First Name"
                                        class="form-control form-border"
-                                       id="contact-field-first-name"/>
+                                       id="contact-field-first-name"
+                                       required/>
                             </div>
                             <div class="col-lg-6">
                                 <input type="text"
+                                        name="Last Name"
                                        aria-label="Contact Form Last Name"
                                        placeholder="Last Name"
                                        class="form-control form-border"
-                                       id="contact-field-last-name"/>
+                                       id="contact-field-last-name"
+                                       required/>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-lg-6">
-                                <input type="text"
+                                <input type="email"
+                                       name="Email"
                                        aria-label="Contact Form Email"
                                        placeholder="Email"
                                        class="form-control form-border"
-                                       id="contact-field-email"/>
+                                       id="contact-field-email"
+                                       required/>
                             </div>
                             <div class="col-lg-6">
                                 <input type="text"
                                        aria-label="Contact Form Phone Number"
                                        placeholder="Phone Number"
                                        class="form-control form-border"
-                                       id="contact-field-phone"/>
+                                       id="contact-field-phone"
+                                       required/>
                             </div>
                         </div>
 
@@ -588,15 +593,16 @@
                                aria-label="Contact Form Subject"
                                placeholder="Subject"
                                class="form-control form-border"
-                               id="contact-field-subject"/>
+                               id="contact-field-subject"
+                               required/>
 
                         <textarea name="enquiry"
                                   aria-label="Contact Enquiry"
                                   placeholder="Enquiry"
                                   rows="12"
                                   class="form-control form-border enquiry"
-                                  id="contact-field-enquiry"
-                        ></textarea>
+                                  id="contact-field-enquiry" required>
+                                </textarea>
 
                         <div class="form-group">
                             <button type="button"
@@ -648,38 +654,38 @@
                                    aria-label="Quote Name"
                                    placeholder="Name"
                                    class="form-control form-border "
-                                   id="quote-contact-field-name"/>
+                                   id="quote-contact-field-name" required/>
                         </div>
                         <div class="form-group col-md-6">
                             <input type="text"
                                    aria-label="Quote Company"
                                    placeholder="Company"
                                    class="form-control form-border "
-                                   id="quote-contact-field-company"/>
+                                   id="quote-contact-field-company" required/>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <input type="text"
+                            <input type="email"
                                    aria-label="Quote Email"
                                    placeholder="Email"
                                    class="form-control form-border "
-                                   id="quote-contact-field-email"/>
+                                   id="quote-contact-field-email" required/>
                         </div>
                         <div class="form-group col-md-6">
                             <input type="text"
                                    aria-label="Quote Phone Number"
                                    placeholder="Phone Number"
                                    class="form-control form-border "
-                                   id="quote-contact-field-phone"/>
+                                   id="quote-contact-field-phone" required/>
                         </div>
                     </div>
                     <div class="form-group">
                         <input type="text"
                                aria-label="Quote Subject"
                                placeholder="Subject"
-                               class="form-control form-border "
-                               id="quote-contact-field-subject"/>
+                               class="form-control form-border"
+                               id="quote-contact-field-subject" required/>
                     </div>
 
                     <div class="form-row">
@@ -726,8 +732,8 @@
                           placeholder="Message"
                           rows="12"
                           class=" form-control form-border"
-                          id="contact-field-message"
-                ></textarea>
+                          id="contact-field-message" required> 
+                        </textarea>
                     </div>
                 </div>
             </div>
@@ -748,6 +754,7 @@
         </div>
     </div>
 </div>
+
 <!-- ###### success  modal ###### -->
 <div class="modal fade"
      id="success-modal"

@@ -24,6 +24,8 @@
 
 ## Overview
 
+### Milestone One Project 
+
 I created a website for an imaginary 3D printing company that I called Starcraft Creations, the back story for the company is as follows:
 
 Starcraft Creations is a prestigious company with an impeccable track record. A company that holds its standards very high and takes care of their customers.
@@ -48,22 +50,22 @@ That is why I have created this site as clean and responsive as possible, the ov
 
 ##### Standard Customer
 
-- As a customer, I wanted to be able to purchase 3d printed products effortlessly without all the clutter I experience on some other sites.
+- For a standard customer, I wanted to give the impression of a professional website that was easy to navigate. I also needed it to have as much of the important information but without making the website look too busy or too cluttered.
 
 ##### Professional Customer
 
-- As a manufacturer, I wanted to have an easy way of getting prototypes 3D printed so that I can get my products to market with as little issues as possible.
+- As a professional engineering company would typically know exactly what they need I wanted it to be fast to get to the quoting stage. I also needed to make the quoting form ask for as little information as possible but still get everyting needed to get a quote out. Keeping the landing page clean portrays a neat company and the catchphrase 'Parts printed in as little as 1 working day!' helps to show that the company is fast and efficient.
 
 ##### Starcraft Creations
 
-- As a 3d printing business, we wanted a website that portrays our professionalism. We also wanted the process to be as simple as possible.
+- For Starcraft Creations I wanted to create a website that portrays a professional-grade 3d printing service. It needed to be clean and neat and have only the content that was relevant to the company. It also needed to be fully responsive as most users would be using the site on mobile devices. This is why I took the mobile-first approach during development. As the ultimate goal is to get business into the company the landing page had to access the quoting form. 
 
 <!-- Top -->
 <!-- wireframes -->
 
 ### Wireframes
 
-These are my wireframes I created during the design process, they were great as a guide to get started. Here you can also find the original [Balsamiq Mockup](/wireframes/) file.
+These are my wireframes I created during the design process, they were great as a guide to get started. Here you can also find the original [Balsamiq Mockup](/wireframes/) file. I did deviate from this slightly as once it was all working it was looking a bit bland but it was very helpful to have a structure and an idea in place form the beginning. Overall, the concept stayed the same.
 
 <div align="center">
 
@@ -152,7 +154,7 @@ I also made sure to use the orange in the logo throughout the website as this is
 **Navigation Bar**
 
 The navigation bar on the website incorporates some icons to give the menus some visual cues. 
-I have also made it so that the active menu item is underlined to help indicate where you are currently at on the page.
+I have also made it so that the active menu item is underlined to help indicate where you are currently at on the page. I used some JavaScript here too to help make it have smooth scrolling, you can find a reference to that in the credits section.
 
 **Landing Page**
 
@@ -161,36 +163,35 @@ I also included some text to reiterate the service the company offers. From the 
   
 **About section**
 
-When I created the 'About Us' section, I made use of Bootstrap's card component. This helped to structure the content neatly and in an organized way. I tried to kep this as simple and informative as possible with some visual styling to that is as aesthetically pleasing as possible.
+When I created the 'About Us' section, I made use of Bootstrap's card component. This helped to structure the content neatly and in an organized way. I tried to keep this as simple and informative as possible with some visual styling to that is is aesthetically pleasing.
 
 **Services Section**
 
-I tried to make this part of the site as informative as possible to the services the company would offer also allowing for the user to be able to 
-request a quote at any point on the page. 
+I tried to make this part of the site as informative as possible to the services the company would offer also allowing for the user to be able to request a quote at any point on the page. This also has some big pictures to give potential customers a visual representation of the type of product you could expect.
 
 **Testimonials**
 
-I wanted to incorporate a testimonials section on the site so that first time customers could have an ide of the kind of service they could expect from a company like Starcraft Creations.
+I wanted to incorporate a testimonials section on the site so that first-time customers could have an idea of the kind of service they could expect from a company like Starcraft Creations. 
 
 **Team**
 
-The team section was a late addition to give the side a more personal feel. I created the elements in this section to be round as I did not want to site to be too 'square'.
+The team section was a late addition to give the website a more personal feel. I created the elements in this section to be round as I did not want to site to be too 'square'. I added some names and titles so that customers could feel like they know the team.
 
 **Contact**
 
-The contact page offers a map to the company and a simple form to get In touch in case you have any queries, you will also find the company address here.
+The contact page offers a map to the company and a simple form to get In touch in case you have any queries, you will also find the company address here. I have also created a popup modal for this that indicates that submission was successful although this is just a visual thing at the moment. 
 
 **Footer**
 
-Finally the footer gives you a link to instantly create an email to the company as well as links to the various social media platforms. 
+The footer gives you a link to instantly create an email to the company and it will fill in the subject with some default text. there are also links to the various social media platforms in the footer all of which have some visual changes when hovered over. I have also made it so that external links open in a separate tab to keep users on the website using target="_blank".
 
 **modals**
 
-There is a quote modal that is set for you to create a request for a quote, this have a modal linked that will display that your request is successful so that you are able to see that something has happened once you hit the submit button. 
+There is a quote modal that is set for you to create a request for a quote, this has a modal linked that will display that your request is successful so that you are able to see that something has happened once you hit the submit button. There are dropdown lists and required fields here to make sure the user inputs valid information. 
 
-###Features left to implement
-It would be good to get some javascript running ont the site, that way i can add some more things like doing something with the data that the user enters into the forms. I would also add a privacy pollicy at that stage. 
-Anouther thing i would like to implement Is possibly some animation to the site, for instance to the testimonials scrolling through them or something like that.
+### Features left to implement
+
+It would be good to get some JavaScript running on the website, that way I can add some more things like doing something with the data that the user enters into the forms. Another feature I would like to implement is possibly some animation to the site, for instance to the testimonials scrolling through them or something like that.
 <!-- Top -->
 
 <div align="center">
@@ -239,38 +240,51 @@ Below is a list of tools i used to create this website.
 
 ## Testing
 
-I tested my code using [W3C Markup](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) as a start to pick up any small errors in the code here i discovered that I had left out the alt test for some of my images as well as some stray div tags. 
-Throughout the process i would regularly test with these two tools to try to catch things early.
+
+## Testing
+
+I tested my code using [W3C Markup](https://validator.w3.org/) and [W3C CSS](https://jigsaw.w3.org/css-validator/) as a start to pick up any small errors in the code here I discovered that I had left out the alt test for some of my images as well as some stray div tags. 
+Throughout the process, I would regularly test with these two tools to try to catch things early.
 
 I tested the following features on multiple PC browsers (Chrome, Firefox, Edge) and Mobile devices (IOS, Android) and this is what I found:
 
 ### Navigation Bar
-It quickly became apparent that on the smaller devices i needed to collapse the menu and shit the logo up to abominate the smaller sizes. so i found i needed to implement media queries at this stage to have more control of this.
-When the menu was expanded i also saw it looked odd on the smaller devices so I decided to center the menu in the end. i lso was using a css scroll function and i realised it was not compatible in most browsers so I opted a JS solution in the end.
+1. Test that this is responsive and colapses in the smaller screen sizes.
+2. Test that the spacing between the menu items resizes on diffrent screen sizes and that the logo does not overlap the menu items.
+3. Test that the scroll to function is workning on multiple devices and in multiple browsers.
+
+It quickly became apparent that on the smaller devices I needed to collapse the menu and shit the logo up to abominate the smaller sizes. so I found I needed to implement media queries at this stage to have more control of this.
+When the menu was expanded I also saw it looked odd on the smaller devices so I decided to centre the menu in the end. I was using a CSS scroll function and I realised it was not compatible in most browsers so I opted for a JavaScript solution in the end.
 
 ### Landing Image
+1. Test that the image looks good on a wide range of screen sizes.
+2. Test that the heading text and quote button will resize and is responsive.
+3. Test that the modal opens and looks good on the smaller sizes. 
+
 This gave me loads of trouble on the ios devices as it simply would not render the image on the physical device, 
-after many hours of trial and error and finally finding a stack overflow thread i realised that this was because of the image 
-being fixed so i fixed this with a media query (Thanks stack overflow!) 
+after many hours of trial and error and finally found a stack overflow thread I realised that this was because of the image 
+being fixed so I fixed this with a media query (Thanks stack overflow!) 
 [Thread](https://stackoverflow.com/questions/36686654/fixed-background-images-disappear-on-iphone-ipad)
 
+
+
 ### Header text
-Seeing this on a physical device was helpful and i realised it was way too big when the device was turned that meant more media query work.
+Seeing this on a physical device was helpful and I realised it was way too big when the device was turned that meant more media query work.
 
 ### About us 
-After seeing this on a small device i realised there was not enough definition to the headers in the cards so i added an interline and made the text uppercase.
+After seeing this on a small device I realised there was not enough definition to the headers in the cards so I added an interline and made the text uppercase.
 
 ### Services
-This section was redone multiple times as i had run in to many little bugs when testing the buttons kept covering the text on the smaller screens. When the modal would pop up after clicking the button it would add a strange padding to the background.
-I spent alot of time bug fixing and testing this on multiple screensize's as its the main reason for this type of site.
+This section was redone multiple times as I had run into many little bugs when testing the buttons kept covering the text on the smaller screens. When the modal would pop up after clicking the button it would add strange padding to the background.
+I spent a lot of time bug fixing and testing this on multiple screen sizes as its the main reason for this type of site.
 
 ### Testimonials
-I originally had the testimonials in a horizontal line, that seemed of unti i changed the screen sizes and they lookes aff due to the 
-different length of text each one had. the solution in the end was to put them in a single versicle line. this made it look much better.
+I originally had the testimonials in a horizontal line, after I changed the screen sizes and they looked off due to the different length of the text each one had. the solution, in the end, was to put them in a single verticle line. This made it look much better.
 
 ### User testing
-I believe this was the most important tests of all, i had some friends and family test the site and the feedback was invaluable. I think when you have been staring at the same site for weeks its hard to see the little errors. they discovered Typos and grammar mistakes. 
-One also suggested that I add the success modal to the submit button on the quote form as it felt like you were left hanging. hey spotted small spacing issues also. At that stage a few commented on the Logo being too pixelated on their devices so I remade the logo at a higher resolution.
+I believe this was the most important tests of all, I had some friends and family test the site and the feedback was invaluable. I think when you have been staring at the same site for weeks it is hard to see the little errors. 
+They discovered Typos and grammar mistakes. 
+One also suggested that I add the success modal to the submit button on the quote form as it felt like you were left hanging. hey spotted small spacing issues also. At that stage, a few commented on the Logo being too pixelated on their devices so I remade the logo at a higher resolution.
 
  <!-- Top -->
 
