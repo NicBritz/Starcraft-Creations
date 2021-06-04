@@ -1,5 +1,7 @@
 # Starcraft Creations - Milestone Project 1
 
+As my first ever website, even though I now cringe at some of the code I am still proud of what i managed ot achieve. You can find a copy of this site here: https://nicbritz.github.io/Starcraft-Creations/
+
 <!-- contents -->
 
 ## Contents
